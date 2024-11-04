@@ -1,12 +1,16 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: Babylon
 
-## Project: **X**
+## Project: FP
 
 ---
 ## 4/24
-#### I used Babylon, went to Tools and chose a playground to tinker with. I wondered what would happen if I change 0.7 of light density of 0.11 because I wasn´t sure of what light density is and after i did that I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere bc it was so common so I used this code ¨ // Our built-in 'goldenberg' shape. var sphere = BABYLON.MeshBuilder.CreateGoldberg("Goldenberg", {diameter: 2, segments: 32}, scene); // Move the goldenberg upward 1/2 its height sphere.position.y = 1;¨ to create the shape of Goldenberg because its name was just fancy. In the future, I wish to work with numbers and learn more of new shapes that I dont know of yet
+#### I used Babylon, went to Tools and chose a playground to tinker with. I wondered what would happen if I change 0.7 of light density of 0.11 because I wasn´t sure of what light density is and after i did that I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere bc it was so common so I used this code 
+
+`// Our built-in 'goldenberg' shape. var sphere = BABYLON.MeshBuilder.CreateGoldberg("Goldenberg", {diameter: 2, segments: 32}, scene); // Move the goldenberg upward 1/2 its height sphere.position.y = 1;`
+
+#### To create the shape of Goldenberg because its name was just fancy. In the future, I wish to work with numbers and learn more of new shapes that I dont know of yet
 ### X/X/XX:
 * Text
 
