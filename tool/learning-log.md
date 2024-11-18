@@ -28,7 +28,8 @@ This is how I tinker with playground to learn more about positioning and after h
 
 [Screenshot 2024-11-15 11 14 48 AM](https://github.com/user-attachments/assets/6a006926-f853-48c8-860b-d99b6385a82a)
 
-*  // Default intensity is 1. Let's dim the light a small amount
+```
+ // Default intensity is 1. Let's dim the light a small amount
     light.intensity = 0.5;
 
     // Our built-in 'sphere' shape.
@@ -37,10 +38,12 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
 
     // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
-
+```
 #### I learned that light.density changed how shape is showen, either dark or light and I increased light.density. Diameter is width and segmnet is like size of the shape. sphere.position is where the shape is located.
 
 Before:
+
+```
 // Default intensity is 1. Let's dim the light a small amount
     light.intensity = 0.7;
 
@@ -49,6 +52,7 @@ Before:
 
     // Move the sphere upward 1/2 its height
     sphere.position.y = 1;
+```
   ![Screenshot 2024-11-15 11 16 27 AM](https://github.com/user-attachments/assets/2844e9f1-8362-4ce9-9a64-628b8e180f43)
  
 
