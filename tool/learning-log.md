@@ -35,6 +35,9 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
 
     // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
+
+#### I learned that light.density changed how shape is showen, either dark or light and I increased light.density. Diameter is width and segmnet is like size of the shape. sphere.position is where the shape is located.
+
 Before:
 // Default intensity is 1. Let's dim the light a small amount
     light.intensity = 0.7;
