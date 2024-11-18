@@ -37,7 +37,7 @@
 ```
   ![Screenshot 2024-11-15 11 16 27 AM](https://github.com/user-attachments/assets/2844e9f1-8362-4ce9-9a64-628b8e180f43)
 
-#### I was confused with what 'light.density' is, 'sphere.position' is, 'diameter' & 'segments' are so I changed them in order to see what they are.
+#### I was confused with what `light.density` is, `sphere.position` is, `diameter` & `segments` are so I changed them in order to see what they are.
 
 ### After:
 This is how I tinker with playground to learn more about positioning and after how playground looked like. 
@@ -55,7 +55,7 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
     // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
 ```
-#### I learned that 'light.density' changed how shape is showen, either dark or light and I increased 'light.density'. 'Diameter' is width and segmnet is like size of the shape or height. 'sphere.position' is where the shape is located.
+#### I learned that `light.density` changed how shape is showen, either dark or light and I increased `light.density`. `Diameter` is width and segmnet is like size of the shape or height. `sphere.position` is where the shape is located.
 
 
 ### X/X/XX:
