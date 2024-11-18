@@ -40,7 +40,7 @@
 #### I was confused with what `light.density` is, `sphere.position` is, `diameter` & `segments` are so I changed them in order to see what they are.
 
 ### After:
-This is how I tinker with playground to learn more about positioning and after how playground looked like. 
+This is how I tinker with playground to learn more about positioning and this is after how playground looked like. 
 
 [Screenshot 2024-11-15 11 14 48 AM](https://github.com/user-attachments/assets/6a006926-f853-48c8-860b-d99b6385a82a)
 
