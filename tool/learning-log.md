@@ -24,7 +24,9 @@
 * I went to [Babylon.js website](https://www.babylonjs.com/). I wanted to tinker with height,weight,etc in babylon.
 
 ### After:
-This is how I tinker with playground to learn more about positioning and after how playground looked like. [Screenshot 2024-11-15 11 14 48 AM](https://github.com/user-attachments/assets/6a006926-f853-48c8-860b-d99b6385a82a)
+This is how I tinker with playground to learn more about positioning and after how playground looked like. 
+
+[Screenshot 2024-11-15 11 14 48 AM](https://github.com/user-attachments/assets/6a006926-f853-48c8-860b-d99b6385a82a)
 
 *  // Default intensity is 1. Let's dim the light a small amount
     light.intensity = 0.5;
