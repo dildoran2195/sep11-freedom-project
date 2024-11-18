@@ -21,7 +21,7 @@
 #### In the future, I wish to work with numbers and learn more of new shapes on a sandbox on [Babylon website](https://www.babylonjs.com/) that I don´t know of yet.
 
 ### 18/24:
-* I went to [Babylon.js website](https://www.babylonjs.com/). I wanted to tinker with height,weight,etc in babylon.
+* I went to [Babylon.js website](https://www.babylonjs.com/). I wanted to tinker with height, weight, etc in babylon.
 
 ### After:
 This is how I tinker with playground to learn more about positioning and after how playground looked like. 
@@ -39,7 +39,7 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
     // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
 ```
-#### I learned that light.density changed how shape is showen, either dark or light and I increased light.density. Diameter is width and segmnet is like size of the shape. sphere.position is where the shape is located.
+#### I learned that 'light.density' changed how shape is showen, either dark or light and I increased 'light.density'. 'Diameter' is width and segmnet is like size of the shape or height. 'sphere.position' is where the shape is located.
 
 Before:
 
