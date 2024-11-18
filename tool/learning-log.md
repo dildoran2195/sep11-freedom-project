@@ -55,7 +55,7 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
     // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
 ```
-#### I learned that `light.density` changed how shape is showen, either dark or light and I increased `light.density`. `Diameter` is width and segmnet is like size of the shape or height. `sphere.position` is where the shape is located.
+#### I learned that `light.density` changed how shape is showen, either dark or light and I increased `light.density`. `Diameter` is width and `segmnet` is like size of the shape or height. `sphere.position` is where the shape is located.
 
 
 ### X/X/XX:
