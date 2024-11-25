@@ -57,6 +57,42 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
 ```
 #### I learned that `light.density` changed how shape is showen, either dark or light and I increased `light.density`. `Diameter` is width and `segmnet` is like size of the shape or height. `sphere.position` is where the shape is located.
 
+### 11/25/24:
+
+##### I used (websites, videos, etc)
+
+* I used [Babylon's playground feature](https://playground.babylonjs.com/) in order to learn more about diameter and camera position. 
+
+##### My tinkering 
+
+* Since I wanted to learn more about general shapes, variable diameters, I tinkered with them in order to extend my knowledge. 
+
+* These are how I tinkered with code in order to gain more knowledge about diameters, shapes, and positions but I changed sphere to circle. 
+
+###### Diameter and shape of my tinkering 
+
+```JS
+<var circle = BABYLON.MeshBuilder.CreateCircle("circle", {diameter: 5, segments: 6}, scene);
+```
+
+###### Model Position
+
+```JS
+circle.position.y = 5;
+```
+
+###### Camera of my shape
+
+```JS
+var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, -10, -10), scene);
+```
+
+
+* My tinkering allowed me to change the initial position of my model to the higher ones within the shape to get larger and to become different shape and for me to use parameters to do so
+
+##### What would be my future tinkering 
+
+* Since I completed working with shapes, diameters, light density, positions, etc on Babylon. I would love to work on how to create my own shape with my own functions and variables. 
 
 ### X/X/XX:
 * Text
