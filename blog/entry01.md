@@ -1,7 +1,10 @@
 # Entry 1
-##### X/X/XX
+##### 11/26/2024
+## Name: Dildora Norbekova
+## Course: SEP11
+## Period: 4
+## Concept: FP & Tools
 
-Text
 
 [Next](entry02.md)
 
