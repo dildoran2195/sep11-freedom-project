@@ -96,7 +96,7 @@ var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, -10, -10),
 
 ### 12/2/24:
 
-#### Since I´m done tinkering with playground and it´s all functions. I jump into (building a house)[https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation/] and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
+#### Since I´m done tinkering with playground and it´s all functions. I jump into [building a house](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
 
 ### Before
 ```JS
