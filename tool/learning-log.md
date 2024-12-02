@@ -95,8 +95,33 @@ var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, -10, -10),
 * Since I completed working with shapes, diameters, light density, positions, etc on Babylon. I would love to work on how to create my own shape with my own functions and variables. 
 
 ### 12/2/24:
-* Text
 
+#### Since I´m done tinkering with playground and it´s all functions. I jump into [https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation/](building a house) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
+
+### Before
+```JS
+const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 2.1, height: 1.2, tessellation: 3});
+roof.scaling.x = 0.75;
+roof.rotation.z = Math.PI / 2;
+roof.position.y = 1.22;
+```
+#### This piece of code decides position, diameter, height, rotation, and scalling of a adding a roof. However, I tinkered with this roof to make it look and run completely different from the recent one. 
+
+![Screenshot 2024-12-02 11 01 12 AM](https://github.com/user-attachments/assets/96986f8e-06eb-4e2a-b5d5-014603102275)
+
+### After:
+
+#### I added a different type of roof that would make our box more unqiue house like. I kept a same prism like shape which were `cylinder` and `box` which made me to use `CreateCylinder`. Since `cylinder` is like only shape for a roof of house. 
+```JS
+const box = BABYLON.MeshBuilder.CreateBox("box", {});
+    box.position.y = 0.8;
+    const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 2.2, height: 1.8, tessellation: 3});
+    roof.scaling.x = 1.00;
+    roof.rotation.z = Math.PI / 2;
+    roof.position.y = 2.11;
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:5, height:15});
+```
+![Screenshot 2024-12-02 11 04 01 AM](https://github.com/user-attachments/assets/9c48c2b8-677d-4288-9adc-e345e0023405)
 
 <!-- 
 * Links you used today (websites, videos, etc)
