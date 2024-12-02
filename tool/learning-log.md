@@ -94,7 +94,7 @@ var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, -10, -10),
 
 * Since I completed working with shapes, diameters, light density, positions, etc on Babylon. I would love to work on how to create my own shape with my own functions and variables. 
 
-### X/X/XX:
+### 12/2/24:
 * Text
 
 
