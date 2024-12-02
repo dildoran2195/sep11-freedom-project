@@ -105,7 +105,7 @@ roof.scaling.x = 0.75;
 roof.rotation.z = Math.PI / 2;
 roof.position.y = 1.22;
 ```
-#### This piece of code decides position, diameter, height, rotation, and scalling of a adding a roof. However, I tinkered with this roof to make it look and run completely different from the recent one. 
+#### This piece of code decides position, diameter, height, rotation, and scalling of a adding a roof. However, I tinkered with this roof to make it look and run completely different from the recent one. I was confused with what tesselation is and why it is important for a roof of my house. 
 
 ![Screenshot 2024-12-02 11 01 12 AM](https://github.com/user-attachments/assets/96986f8e-06eb-4e2a-b5d5-014603102275)
 
@@ -123,9 +123,13 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 ```
 ![Screenshot 2024-12-02 11 04 01 AM](https://github.com/user-attachments/assets/9c48c2b8-677d-4288-9adc-e345e0023405)
 
-#### Also, I made a unique roof that is completely different from the recent one by changing its scalling, rotation, position, width, height of ground, diamater, heaight, tesselaion of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got more height than width.
+#### Also, I made a unique roof that is completely different from the recent one by changing its scalling, rotation, position, width, height of ground, diamater, heaight, tesselaion of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got more longer through it´s new height than it´s old width.
 
 #### There were different levels for this house and I chose challenge 2 by skipping challenge one in order to add a  unique and different Prism Roof Using 'CreateCylinder'. Therefore, my next challenge in order to complete this house would be challenge 4 because I want to challenge myself more. 
+
+#### my a-ha moment was what tesselation is and why it´s important. Therefore I changed my tesselation from 2 to 5 to know what it does and why it is important.
+![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
+#### I learned that tesselation is like shape of a roof that changed how it looks like
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
