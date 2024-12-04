@@ -28,8 +28,9 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
     // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
 ```
-
-
+#### my a-ha moment in tinkering was when I did not know what tesselation is and why it´s important. Therefore I changed my tesselation from 2 to 5 to know what it does and why it is important using code and screenshot below. 
+![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
+#### I learned that tesselation is like shape of a roof that changed how it looks like
 
 ## EDP
 
