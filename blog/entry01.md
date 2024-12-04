@@ -56,7 +56,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ## Summary
 
-Overall, I'm really excited to make a website about the technology of architecture. It all started with the inspiration of a restaurant in Fort Hamilton, and maybe I'll have a future career in architecture!
+#### Overall, I'm really excited to make a simulation about the technology of medicine. It all started with the inspiration of what I want to do after graduating from HS and current problems in this field. Therefore, I would probably have a future in career of medicine which would be a PA (Physician Assistant).  
 
 [Next](entry02.md)
 
