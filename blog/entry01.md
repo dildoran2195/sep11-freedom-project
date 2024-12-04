@@ -11,9 +11,9 @@ The topic that I have chosen for the year-long project is **The Medicine Technol
 
 The two main links that I used to explore was [Medical Technology Facts](https://www.lifechanginginnovation.org/medical-technology-facts.html) and [Benefits Of Medical Technology: What's the Impact?](https://blog.cloudticity.com/benefits-of-medical-technology). The first link helps me know what the field medical technology is. Also, the second link tells me avantages of medical technology. Some other links that I had explored were [15 Tech Tools And Processes That Are Transforming The Healthcare Industry](https://www.forbes.com/councils/forbestechcouncil/2022/10/31/15-tech-tools-and-processes-that-are-transforming-the-healthcare-industry/) and [25 Different Types of Medical Assistant Equipment](https://medassisting.org/medical-assistant-equipment-a-comprehensive-guide/). These two were links that helped me understand the intro of medicine proess and what were devices/technology that were helpful in medical field. 
 
-## Tinkerings of Babylon
+## Tinkerings with Babylon
 
-
+I tinkered with Babylon a lot and learned so many things about it inclduing what Babylon is, paarmets, positioning, etc., More at [My Tinkerings with Babylon](https://github.com/dildoran2195/sep11-freedom-project/edit/main/tool/learning-log.md)
 
 ## EDP
 
