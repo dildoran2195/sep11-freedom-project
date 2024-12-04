@@ -13,7 +13,7 @@
 
 ## Tinkerings with Babylon
 
-#### I tinkered with Babylon a lot and learned so many things about it inclduing what Babylon is, paarmets, positioning, etc., More at [My Tinkerings with Babylon](https://github.com/dildoran2195/sep11-freedom-project/edit/main/tool/learning-log.md).
+#### I tinkered with Babylon a lot and learned so many things about it inclduing what Babylon is, parameters, positioning, etc., More at [My Tinkerings with Babylon](https://github.com/dildoran2195/sep11-freedom-project/edit/main/tool/learning-log.md).
 
 #### Code below helped me to learn that `light.density` changed how shape is showen, either dark or light and I increased `light.density`. `Diameter` is width and `segmnet` is like size of the shape or height. `sphere.position` is where the shape is located and these were things that I was confused with. 
 
@@ -43,14 +43,16 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ## EDP
 
-The EDP stands for Engineering Design Process and my steps of the EDP are the (Step 1) defining and the (Step 2) which is researching. At first, I found what I´m passionate about by defining it. ...hen, we do more deep research in the field that we are more passionate about and do more research about the technology that is used in that career. For instance, some technologies that were used in the field of architecture are “3D printers, augmented writing, and virtual reality.” I think I'll be on step 2 for a while before I move on to the next step of brainstorming possible solutions.
+#### The EDP stands for Engineering Design Process and my steps of the EDP are the (Step 1) defining the problem in medicine which was lacking technology in the field of medicine and the (Step 2) was researching the problem. At first, I found what I´m passionate about by defining it which was simulation for medicine technology and I found out the problem in technology of medicine which was lack of technologies in this career. Also, I did more research in the field of medicine in order to make a simulation out of it and technology that is used in medicine. For example. augmented reality, mixed reality, immersive reality and high-quality haptics are all technologies used for a simulation in medicine in order to identify the problem in a persons health. My next step would be brainstorming the solution. 
 
 ## Skills
-I gained 3 skills: Communication, How to Google, and How to read
+#### I gained 3 skills: Communication, How to Google, and How to read
 
-One skill that I learned during this experience is **How to Google**. I say this because in this part of the project, we were able to use Google and do different research for different technologies in different fields of careers. When I looked up "architecture innovations," I found a lot of cool stuff, but it wasn't necessarily technology. A lot of it was design-related, such as repurposing shipping containers for things like gardens or homes. So I had to add the word "technology" to my search and that really helped me confirm that I'm interested in existing and also future technology of architecture.
+#### First skill that I gained was communication. I communicated with my partner by asking and helping each other to do our writeups and tinkerings. Also, we worked together in order to identify what we are passionate about. Then, choosing tool and defining the problem in the field of medicine in order to create a simulation together. I also improved my communication skill because before I was nervous to ask a question or to talk with my peers. After I imporved this skill, I did felt comfortable working with my partner in order to talk about our goals and problems that we are experiencing through FP. 
 
-Another skill that I also achieved was **How to Read**. After googling, we needed to see which article matches with the topic by reading closely. There were a lot of terms I didn't know, such as "CAD" (which I then Googled, and that ties into my first skill. By the way, it means "computer aided design"). But reading an article is a lot different than reading a novel. A lot of articles have headings and subheadings that break up the text into smaller chunks, making it easier to read. I think that also helps me in the way that I write, for example, I added headings to this blog entry so that hopefully it's easier for you to read!
+#### Another skill that I learned during this experience is **How to Google**. Since, Googling was important and allowed in order to find out more about different technologies for our different field of careers. When I looked up "med tech" I was not able to find enough information because I was not good at Googling by typing specific things that I need to know. But after I gained this skill, I learned to be more specific and add more details to my question to ask from Google. Therefore, I typed "technologies in the field of medicine process or a simulation" which gave me enough information to learn and consider through out this FP. This skill helped me to believe that I´m enough interested in this field and to do more research about future technology of medicine.  
+
+#### Last skill that I gained was **How to Read**. Achieving skill of Googling was not enough because I supposed to have ability to understand and consider inofrmation that Google gave me based on my specific question. Before I gained this skill, I just use to try to understand terms that I did not know because I just thought it didn´t matter. However after I gained this skill, I learned that everything matters when reading an article or visiting website to learn more about medicine because all teaches something that is part of my researching. For example, when Google gave me a bunch of technologies that I did not know what it does, I read more closely about decsriptions of those technologie which were diagnosing health problem of a person by using that technology as tool to do it.
 
 ## Summary
 
