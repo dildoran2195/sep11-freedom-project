@@ -13,7 +13,7 @@ The two main links that I used to explore was [Medical Technology Facts](https:/
 
 ## Tinkerings with Babylon
 
-I tinkered with Babylon a lot and learned so many things about it inclduing what Babylon is, paarmets, positioning, etc., More at [My Tinkerings with Babylon](https://github.com/dildoran2195/sep11-freedom-project/edit/main/tool/learning-log.md)
+I tinkered with Babylon a lot and learned so many things about it inclduing what Babylon is, paarmets, positioning, etc., More at [My Tinkerings with Babylon](https://github.com/dildoran2195/sep11-freedom-project/edit/main/tool/learning-log.md).
 
 ## EDP
 
