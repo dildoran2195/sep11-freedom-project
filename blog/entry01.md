@@ -5,7 +5,7 @@
 ## Concept: FP & Tools
 ##### 11/26/2024
 
-# Entry 1: The Medicine Technology Process, building the road ahead
+# Entry 1: FP & Tool
 
 ## Why The Medicine Technology Process?
 
