@@ -11,11 +11,16 @@ The topic that I have chosen for the year-long project is **The Medicine Technol
 
 The two main links that I used to explore was [Medical Technology Facts](https://www.lifechanginginnovation.org/medical-technology-facts.html) and [Benefits Of Medical Technology: What's the Impact?](https://blog.cloudticity.com/benefits-of-medical-technology). The first link helps me know what the field medical technology is. Also, the second link tells me avantages of medical technology. Some other links that I had explored were [15 Tech Tools And Processes That Are Transforming The Healthcare Industry](https://www.forbes.com/councils/forbestechcouncil/2022/10/31/15-tech-tools-and-processes-that-are-transforming-the-healthcare-industry/) and [25 Different Types of Medical Assistant Equipment](https://medassisting.org/medical-assistant-equipment-a-comprehensive-guide/). These two were links that helped me understand the intro of medicine proess and what were devices/technology that were helpful in medical field. 
 
+## Tinkerings of Babylon
+
+
+
 ## EDP
 
 Now, I am on the (Step 1) defining and the (Step 2) researching step of the EDP (engineering design process). At first, we were defining what we are most passionate about. Then, we do more deep research in the field that we are more passionate about and do more research about the technology that is used in that career. For instance, some technologies that were used in the field of architecture are “3D printers, augmented writing, and virtual reality.” I think I'll be on step 2 for a while before I move on to the next step of brainstorming possible solutions.
 
 ## Skills
+I gained 3 skills: Communication, How to Google, and How to read
 
 One skill that I learned during this experience is **How to Google**. I say this because in this part of the project, we were able to use Google and do different research for different technologies in different fields of careers. When I looked up "architecture innovations," I found a lot of cool stuff, but it wasn't necessarily technology. A lot of it was design-related, such as repurposing shipping containers for things like gardens or homes. So I had to add the word "technology" to my search and that really helped me confirm that I'm interested in existing and also future technology of architecture.
 
