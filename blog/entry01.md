@@ -1,11 +1,9 @@
-# Entry 1
+# Entry 1: FP & Tool
 ## Name: Dildora Norbekova
 ## Course: SEP11
 ## Period: 4
 ## Concept: FP & Tools
 ##### 11/26/2024
-
-# Entry 1: FP & Tool
 
 ## Why The Medicine Technology Process?
 
