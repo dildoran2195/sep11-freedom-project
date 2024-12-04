@@ -17,7 +17,7 @@ The two main links that I used to explore was [Medical Technology Facts](https:/
 
 ## EDP
 
-Now, I am on the (Step 1) defining and the (Step 2) researching step of the EDP (engineering design process). At first, we were defining what we are most passionate about. Then, we do more deep research in the field that we are more passionate about and do more research about the technology that is used in that career. For instance, some technologies that were used in the field of architecture are “3D printers, augmented writing, and virtual reality.” I think I'll be on step 2 for a while before I move on to the next step of brainstorming possible solutions.
+The EDP stands for Engineering Design Process and my steps of the EDP are the (Step 1) defining and the (Step 2) which is researching. At first, I found what I´m passionate about by defining it. ...hen, we do more deep research in the field that we are more passionate about and do more research about the technology that is used in that career. For instance, some technologies that were used in the field of architecture are “3D printers, augmented writing, and virtual reality.” I think I'll be on step 2 for a while before I move on to the next step of brainstorming possible solutions.
 
 ## Skills
 I gained 3 skills: Communication, How to Google, and How to read
