@@ -6,9 +6,8 @@
 ##### 11/26/2024
 
 # Entry 1: The Medicine Technology Process, building the road ahead
-##### 10/18/21
 
-## Why architecture?
+## Why The Medicine Technology Process?
 
 The topic that I have chosen for the year-long project is **The Medicine Technology Process** and my tool is **Babylon**. I chose this topic because I love to study different kinds of the technology of med and the process of making it. I am obsessed with the different styles of technologies for medicine and want to know more about it, especially all kinds of old style ones. ....There is a Hot-Pot Restaurant in Fort Hamilton, and the design of the restaurant looked awesome. It is one of those kinds of Chinese old style designs. I liked to see how the architecture over there plans these things out and know the process of architecturing and what kinds of technologies they use to do these beautiful architectures. Lastly, my two backup ideas are educational and graphic designs. 
 
