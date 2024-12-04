@@ -15,6 +15,20 @@ The two main links that I used to explore was [Medical Technology Facts](https:/
 
 I tinkered with Babylon a lot and learned so many things about it inclduing what Babylon is, paarmets, positioning, etc., More at [My Tinkerings with Babylon](https://github.com/dildoran2195/sep11-freedom-project/edit/main/tool/learning-log.md).
 
+Code below helped me to learn that `light.density` changed how shape is showen, either dark or light and I increased `light.density`. `Diameter` is width and `segmnet` is like size of the shape or height. `sphere.position` is where the shape is located and these were things that I was confused with. 
+
+```
+ // Default intensity is 1. Let's dim the light a small amount
+    light.intensity = 0.5;
+
+    // Our built-in 'sphere' shape.
+    var sphere = BABYLON.MeshBui!
+lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
+
+    // Move the sphere upward 1/2 its height
+    sphere.position.y = 2;
+```
+
 
 
 ## EDP
