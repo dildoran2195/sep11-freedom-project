@@ -1,5 +1,9 @@
-# Entry 2
-##### 12/15/24
+# Entry 2: FP & Tool
+## Name: Dildora Norbekova
+## Course: SEP11
+## Period: 4
+## Concept: Tool & Winter Recess
+##### 12/16/24
 
 ### How I have been tinkering with Babylon and my plans for Winter Recess:
 
