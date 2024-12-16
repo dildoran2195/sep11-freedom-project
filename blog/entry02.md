@@ -1,7 +1,7 @@
 # Entry 2
 ##### 12/15/24
 
-### How I have been tinkering with Babylon and my plans for Winter Recess
+### How I have been tinkering with Babylon and my plans for Winter Recess:
 
 #### During the past weeks, I have been improving my knowledge of Babylon by learning more and more through tinkering. Specifically, I have learned functions of shapes and playground like parameters, positions, etc,. and how to create unique house using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose document or code to tinker with like shapes, playground, and house. I was confused about purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions does such as parameters, positions, etc,. The things I've learned includes:
 
@@ -44,6 +44,25 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 * I learned that tesselation is like shape of a roof that changed how it looks like
 
 #### Lastly, my plans for Winter recess are to complete Challenge 2 of building house by tinkering with [adding texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/), [materials for each house side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/), and [combining meshes](https://doc.babylonjs.com/features/introductionToFeatures/chap2/combine/).
+
+### EDP
+
+
+
+
+
+
+
+
+### Skills
+
+
+
+
+
+
+
+### Summary
 
 
 
