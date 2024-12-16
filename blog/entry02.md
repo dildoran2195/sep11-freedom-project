@@ -38,7 +38,9 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 ![Screenshot 2024-12-02 11 04 01 AM](https://github.com/user-attachments/assets/9c48c2b8-677d-4288-9adc-e345e0023405)
 
 * However, I was confused with what purpose of tesselation is and why it´s important. Therefore I changed my tesselation from 2 to 5 to know what it does and why it is important.
+
 ![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
+
 * I learned that tesselation is like shape of a roof that changed how it looks like
 
 
