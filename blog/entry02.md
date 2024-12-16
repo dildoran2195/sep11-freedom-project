@@ -23,7 +23,37 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
 // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
 ```
-* I used Babylon's playground feature in order to learn more about functions of playground and shapes but previous thing I learned was my unique roof of my house.
+* I used Babylon's playground feature in order to learn more about functions of playground and shapes but previous thing I learned was my unique roof of my house using [building a house](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
+
+
+#### Also, I made a unique roof that is completely different from the recent one by changing its scalling, rotation, position, width, height of ground, diamater, heaight, tesselaion of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got more longer through it´s new height than it´s old width.
+```JS
+const box = BABYLON.MeshBuilder.CreateBox("box", {});
+    box.position.y = 0.8;
+    const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 2.2, height: 1.8, tessellation: 3});
+    roof.scaling.x = 1.00;
+    roof.rotation.z = Math.PI / 2;
+    roof.position.y = 2.11;
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:5, height:15});
+```
+![Screenshot 2024-12-02 11 04 01 AM](https://github.com/user-attachments/assets/9c48c2b8-677d-4288-9adc-e345e0023405)
+
+#### However, I was confused with what purpose of tesselation is and why it´s important. Therefore I changed my tesselation from 2 to 5 to know what it does and why it is important.
+![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
+#### I learned that tesselation is like shape of a roof that changed how it looks like
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
