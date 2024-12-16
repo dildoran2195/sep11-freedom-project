@@ -7,7 +7,7 @@
 
 ### How I have been tinkering with Babylon and my plans for Winter Recess:
 
-#### During the past weeks, I have been improving my knowledge of Babylon by learning more and more through tinkering. Specifically, I have learned functions of shapes and playground like parameters, positions, etc,. and how to create unique house using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose document or code to tinker with like shapes, playground, and house. I was confused about purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions does such as parameters, positions, etc,. The things I've learned includes:
+#### During the past weeks, I have been improving my knowledge of Babylon by learning more and more through tinkering. Specifically, I have learned functions of shapes and playground like parameters, positions, etc,. and how to create a unique house using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose documents or code to tinker with like shapes, playground, and house. I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as parameters, positions, etc,. The things I've learned includes:
 
 * I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere because it was so common so I used this code by doing code below:
 ```
@@ -29,7 +29,7 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
 ```
 * I used Babylon's playground feature in order to learn more about functions of playground and shapes but previous thing I learned was my unique roof of my house using [building a house](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
 
-* Also, I made a unique roof that is completely different from the recent one by changing its scalling, rotation, position, width, height of ground, diamater, heaight, tesselaion of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got more longer through it´s new height than it´s old width.
+* Also, I made a unique roof that is completely different from the recent one by changing its scaling, rotation, position, width, height of ground, diameter, height, tessellation of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got longer through it´s new height than it´s old width.
 ```JS
 const box = BABYLON.MeshBuilder.CreateBox("box", {});
     box.position.y = 0.8;
@@ -41,13 +41,14 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 ```
 ![Screenshot 2024-12-02 11 04 01 AM](https://github.com/user-attachments/assets/9c48c2b8-677d-4288-9adc-e345e0023405)
 
-* However, I was confused with what purpose of tesselation is and why it´s important. Therefore I changed my tesselation from 2 to 5 to know what it does and why it is important.
+* However, I was confused with what the purpose of tessellation is and why it's important. Therefore I changed my tessellation from 2 to 5 to know what it does and why it is important.
 
 ![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
 
-* I learned that tesselation is like shape of a roof that changed how it looks like
+* I learned that tessellation is like shape of a roof that changed how it looks like
 
 #### Lastly, my plans for Winter recess are to complete Challenge 2 of building house by tinkering with [adding texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/), [materials for each house side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/), and [combining meshes](https://doc.babylonjs.com/features/introductionToFeatures/chap2/combine/).
+
 
 ### EDP
 
