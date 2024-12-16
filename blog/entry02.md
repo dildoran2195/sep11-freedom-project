@@ -43,7 +43,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 * I learned that tesselation is like shape of a roof that changed how it looks like
 
-#### Lastly, my plans for Winter recess are to
+#### Lastly, my plans for Winter recess are to complete Challenge 2 of building house by tinkering with [adding texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/), [materials for each house side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/), and [combining meshes](https://doc.babylonjs.com/features/introductionToFeatures/chap2/combine/).
 
 
 
