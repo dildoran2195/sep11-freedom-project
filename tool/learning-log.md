@@ -130,6 +130,28 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 #### my a-ha moment was what tesselation is and why it´s important. Therefore I changed my tesselation from 2 to 5 to know what it does and why it is important.
 ![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
 #### I learned that tesselation is like shape of a roof that changed how it looks like
+
+### 12/16/24
+![Screenshot 2024-12-16 11 14 59 AM](https://github.com/user-attachments/assets/fbab55bb-0b71-43f8-bb85-4833bad92528)
+```
+    /**** World Objects *****/
+    const box = BABYLON.MeshBuilder.CreateBox("box", {});
+    box.material = boxMat;
+    box.position.y = 0.20;
+    const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 2.3, height: 2.2, tessellation: 4});
+    roof.material = roofMat;
+    roof.scaling.x = 0.55;
+    roof.rotation.z = Math.PI / 2;
+    roof.position.y = 1.30;
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:12, height:12});
+    ground.material = groundMat;
+```
+```
+    /**** Materials *****/
+    //color
+    const groundMat = new BABYLON.StandardMaterial("groundMat");
+    groundMat.diffuseColor = new BABYLON.Color3(0.96, 0.07, 0.96)
+```
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
