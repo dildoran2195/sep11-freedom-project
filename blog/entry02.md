@@ -65,19 +65,7 @@ I learned 3 skills: Time Managment, How to learn, & Problem decomposition:
 
 
 ### Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Overall, I'm really proud to plan to make a simulation about the technology of medicine using my knowledge of Babylon and Javascript with my partner. Since, this curioisty started with my goal of becoming a PA in the future, I'll do my best to actually make this simulation exist and I won't give up at all. Therefore, I'm going to continue to keep working on this FP. 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
