@@ -60,10 +60,6 @@ I learned 3 skills: Time Management, How to learn, & Problem decomposition:
 
 #### I learned Babylon on my own which is called **LOYO** (Learn On Your Own). I went to its website and found interesting codes to tinker with in order to learn so I change functions that I did not knew its purpose and how to use it, then I took screenshot and copied how result have been changed after my tinkering which taught me a lot about Babylon such as what purpose of tessellation is. Therefore, I have my learning logs with information I can use in the future for my simulation in the career of medicine. 
 
-#### Last skill I gained is Problem decomposition by finding possible solutions for lack of technologies in career of medicine which is **A SIMULATION**. First of all, what is a simulation in technology of medicine and how is it beneficial to improve technology of medicine? 
-
-
-
 ### Summary
 #### Overall, I'm really proud to plan to make a simulation about the technology of medicine using my knowledge of Babylon and Javascript with my partner. Since, this curiosity started with my goal of becoming a PA in the future, I'll do my best to actually make this simulation exist and I won't give up at all. Therefore, I'm going to continue to keep working on this FP. 
 
