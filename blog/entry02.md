@@ -54,7 +54,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 #### Since I completed step 1 and step 2 in my Blog 1, I'm on step 3 of EDP which is brainstorming possible solutions for technology of medicine. As I mentioned in my Blog 1, problems in this career are the lack of technologies in this career. Possible solution for this problem is a simulation for technology of medicine in order to get rid of the lack of technologies in this career. However, right now I am still extending my knowledge of Babylon in order to make this simulation actually exist for real by testing code out to see what I should learn or use and what I don't need to learn at all. I plan to continue learning more and more about Babylon to learn how to make a simulation. 
 
 ### Skills
-I learned 3 skills: Time Management, How to learn, & Problem decomposition:
+I learned 2 skills: Time Management & How to learn:
 
 #### I learned Time Management by doing my tinkerings **ON TIME** with Babylon every week when it was assigned in order to make a simulation. I also discussed with my partner how to build a house in Babylon and how to run it. We also connected with each other to not miss deadlines for anything and to stay on task & ask for help so we used our time wisely. This skill is very important for now and future because it helps me to stay focused and to balance FP with other of my academic responsibilities. 
 
