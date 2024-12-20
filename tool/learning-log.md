@@ -135,7 +135,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ### My resources and goal:
 
-#### I wanted to continue on building a house which was tinkering with world objects in order to learn about certain functions that I am not familar with. I used [Add Texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/) as resource of mine.
+#### I wanted to continue on building a house which was tinkering with world objects in order to learn about certain functions that I am not familar with. I used [Add Texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/) as resource of mine. I also went to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2024-12-20 10 46 54 AM](https://github.com/user-attachments/assets/51457ed7-cfa2-4b6b-95d0-5c1d34bc66d6)
