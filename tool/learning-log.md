@@ -133,7 +133,8 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ### 12/16/24
 
-### My resources and goal
+### My resources and goal:
+
 #### I wanted to continue on building a house which was tinkering with world objects in order to learn about certain functions that I am not familar with. I used [Add Texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/) as resource of mine.
 
 ### Before:
@@ -159,7 +160,8 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
     const groundMat = new BABYLON.StandardMaterial("groundMat");
     groundMat.diffuseColor = new BABYLON.Color3(0, 1, 0)
 ```
-### Things you tried, tinkered with, your progress, etc.,
+### Things you tried, tinkered with, your progress, etc.,:
+
 #### I was confused about certain functions of this house including what  `roof.material = roofMat;` , `roof.scaling.x = 0.75;` , `roof.rotation.z = Math.PI / 2;` , `roof.position.y = 1.22;` , and  `const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});`. Therefore, I tinker with these functions to learn what its purpose is and what is does.
 
 ### After:
@@ -183,14 +185,18 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
     const groundMat = new BABYLON.StandardMaterial("groundMat");
     groundMat.diffuseColor = new BABYLON.Color3(0.96, 0.07, 0.96)
 ```
-### Things you learned through tinkering
+### Things you learned through tinkering:
+
 #### I learned purpose of  `roof.material = roofMat;` was texture of this house, `roof.scaling.x = 0.75;` was size of the roof, `roof.rotation.z = Math.PI / 2;` rotates the roof , `roof.position.y = 1.22;`  changes size or position of the roof, and  `const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});` is how big and how long the ground is.
 
-### a-ha moments or challenge
+### a-ha moments or challenge:
+
 #### I was able to create a different model types using Babylon in order to build a house. I was also able to use different properties to maneuver models.
 
 ### Questions I still have
 #### How to implement animations using challenge of making a house.
+
+### What you're going to try next:
 
 #### My next step is to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/)
 
