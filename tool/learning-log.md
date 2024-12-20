@@ -132,6 +132,8 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 #### I learned that tesselation is like shape of a roof that changed how it looks like
 
 ### 12/16/24
+I wanted to continue on building a house which was tinkering with world objects in order to learn about certain functions that I am not familar with. 
+
 ![Screenshot 2024-12-16 11 14 59 AM](https://github.com/user-attachments/assets/fbab55bb-0b71-43f8-bb85-4833bad92528)
 ```
     /**** World Objects *****/
