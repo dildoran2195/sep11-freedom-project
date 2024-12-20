@@ -134,6 +134,32 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 ### 12/16/24
 I wanted to continue on building a house which was tinkering with world objects in order to learn about certain functions that I am not familar with. 
 
+### Before:
+![Screenshot 2024-12-20 10 46 54 AM](https://github.com/user-attachments/assets/51457ed7-cfa2-4b6b-95d0-5c1d34bc66d6)
+```
+    /**** World Objects *****/
+    const box = BABYLON.MeshBuilder.CreateBox("box", {});
+    box.material = boxMat;
+    box.position.y = 0.5;
+    const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 1.3, height: 1.2, tessellation: 3});
+    roof.material = roofMat;
+    roof.scaling.x = 0.75;
+    roof.rotation.z = Math.PI / 2;
+    roof.position.y = 1.22;
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});
+    ground.material = groundMat;
+
+    return scene;
+}
+```
+```
+    //color
+    const groundMat = new BABYLON.StandardMaterial("groundMat");
+    groundMat.diffuseColor = new BABYLON.Color3(0, 1, 0)
+```
+I was confused about certain functions of this house including what  `roof.material = roofMat;` , `roof.scaling.x = 0.75;` , `roof.rotation.z = Math.PI / 2;` , `roof.position.y = 1.22;` , and  `const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});`. Therefore, I tinker with these functions to learn what its purpose is and what is does.
+
+### After:
 ![Screenshot 2024-12-16 11 14 59 AM](https://github.com/user-attachments/assets/fbab55bb-0b71-43f8-bb85-4833bad92528)
 ```
     /**** World Objects *****/
@@ -154,6 +180,10 @@ I wanted to continue on building a house which was tinkering with world objects 
     const groundMat = new BABYLON.StandardMaterial("groundMat");
     groundMat.diffuseColor = new BABYLON.Color3(0.96, 0.07, 0.96)
 ```
+I learned purpose of  `roof.material = roofMat;` was texture of this house, `roof.scaling.x = 0.75;` was size of the roof, `roof.rotation.z = Math.PI / 2;` rotates the roof , `roof.position.y = 1.22;`  changes size or position of the roof, and  `const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});` is how big and how long the ground is.
+
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
