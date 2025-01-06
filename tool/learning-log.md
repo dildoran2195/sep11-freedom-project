@@ -202,12 +202,68 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 01/13/25
 ### My resources and goal:
+#### MY goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to the house and how house looks like in outside. I also to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
+![Screenshot 2025-01-06 2 18 33 PM](https://github.com/user-attachments/assets/d852416f-40a4-41c8-af81-22fcb462dd8f)
+```
+    /**** Set camera and light *****/
+    const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 10, new BABYLON.Vector3(0, 0, 0));
+    camera.attachControl(canvas, true);
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
+
+    /**** Materials *****/
+    //color
+    const groundMat = new BABYLON.StandardMaterial("groundMat");
+    groundMat.diffuseColor = new BABYLON.Color3(0, 1, 0)
+
+    //texture
+    const roofMat = new BABYLON.StandardMaterial("roofMat");
+    roofMat.diffuseTexture = new BABYLON.Texture("https://assets.babylonjs.com/environments/roof.jpg");
+    const boxMat = new BABYLON.StandardMaterial("boxMat");
+    boxMat.diffuseTexture = new BABYLON.Texture("https://assets.babylonjs.com/environments/cubehouse.png")
+
+
+    //options parameter to set different images on each side
+    const faceUV = [];
+    faceUV[0] = new BABYLON.Vector4(0.5, 0.0, 0.75, 1.0); 
+    faceUV[1] = new BABYLON.Vector4(0.0, 0.0, 0.25, 1.0);
+    faceUV[2] = new BABYLON.Vector4(0.25, 0, 0.5, 1.0); 
+    faceUV[3] = new BABYLON.Vector4(0.75, 0, 1.0, 1.0); 
+    // top 4 and bottom 5 not seen so not set
+```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-
+I was confused with purpose of certain codes including `const camera`, `const light`, `const groundMat` and `const faceUV = [];` which had plenty of codes inside. All of these certain codes are materiuals of texture, color, and options parameter to set different images on each side which I've tinkered with so far.
 ### After:
+![Screenshot 2025-01-06 2 16 54 PM](https://github.com/user-attachments/assets/4b9b1771-9dce-473c-8ccb-405bcb6febf9)
+![Screenshot 2025-01-06 2 17 27 PM](https://github.com/user-attachments/assets/e7afb6a6-6c08-4dd7-b5c9-c97d16153966)
+```
+    /**** Set camera and light *****/
+    const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 4, Math.PI / 3.8, 12, new BABYLON.Vector3(1, 2, 3));
+    camera.attachControl(canvas, true);
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 1));
+
+    /**** Materials *****/
+    //color
+    const groundMat = new BABYLON.StandardMaterial("groundMat");
+    groundMat.diffuseColor = new BABYLON.Color3(0.07, 0.09, 0.93)
+
+    //texture
+    const roofMat = new BABYLON.StandardMaterial("roofMat");
+    roofMat.diffuseTexture = new BABYLON.Texture("https://assets.babylonjs.com/environments/roof.jpg");
+    const boxMat = new BABYLON.StandardMaterial("boxMat");
+    boxMat.diffuseTexture = new BABYLON.Texture("https://assets.babylonjs.com/environments/cubehouse.png")
+
+
+    //options parameter to set different images on each side
+    const faceUV = [];
+    faceUV[0] = new BABYLON.Vector4(1, 1, 0.85, 1.0); 
+    faceUV[1] = new BABYLON.Vector4(0.5, 0.10, 0.15, 1.5); 
+    faceUV[2] = new BABYLON.Vector4(0.29, 1, 1.5, 1.5); 
+    faceUV[3] = new BABYLON.Vector4(0.85, 1, 1.5, 1.5); 
+    // top 4 and bottom 5 not seen so not set
+```
 
 ### Things you learned through tinkering:
 
