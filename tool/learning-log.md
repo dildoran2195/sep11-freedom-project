@@ -200,7 +200,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 #### My next step is to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically adding door and multiple windows for this house using Babylon.
 
-01/13/25
+## 01/13/25
 ### My resources and goal:
 #### MY goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to the house and how house looks like in outside. I also to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
