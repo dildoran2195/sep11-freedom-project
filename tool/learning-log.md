@@ -205,6 +205,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 #### MY goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to the house and how house looks like in outside. I also to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
+![Screenshot 2025-01-06 2 21 15 PM](https://github.com/user-attachments/assets/9334a344-5c29-4805-a5b9-1a3523a5b7d5)
 ![Screenshot 2025-01-06 2 18 33 PM](https://github.com/user-attachments/assets/d852416f-40a4-41c8-af81-22fcb462dd8f)
 ```
     /**** Set camera and light *****/
@@ -266,7 +267,7 @@ I was confused with purpose of certain codes including `const camera`, `const li
 ```
 
 ### Things you learned through tinkering:
-
+#### I learned that  `const camera` is how the house is seen all the way from top so it's like a camera that shows how house actually looks like, `const light` is how light or how dark the house is, `const groundMat` and `const faceUV = [];` which had plenty of codes inside.
 ### a-ha moments or challenge:
 
 ### Questions I still have:
