@@ -135,7 +135,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ### My resources and goal:
 
-#### I wanted to continue on building a house which was tinkering with world objects in order to learn about certain functions that I am not familar with. I used [Add Texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/) as resource of mine. I also went to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+#### I wanted to continue building a house which was tinkering with world objects in order to learn about certain functions that I am not familiar with. I used [Add Texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/) as a resource of mine. I also went to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2024-12-20 10 46 54 AM](https://github.com/user-attachments/assets/51457ed7-cfa2-4b6b-95d0-5c1d34bc66d6)
@@ -162,7 +162,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 ```
 ### Things you tried, tinkered with, your progress, etc.,:
 
-#### I was confused about certain functions of this house including what  `roof.material = roofMat;` , `roof.scaling.x = 0.75;` , `roof.rotation.z = Math.PI / 2;` , `roof.position.y = 1.22;` , and  `const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});`. Therefore, I tinker with these functions to learn what its purpose is and what is does.
+#### I was confused about certain functions of this house including what  `roof.material = roofMat;` , `roof.scaling.x = 0.75;` , `roof.rotation.z = Math.PI / 2;` , `roof.position.y = 1.22;` , and  `const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:10, height:10});`. Therefore, I tinker with these functions to learn what its purpose is and what it does.
 
 ### After:
 ![Screenshot 2024-12-16 11 14 59 AM](https://github.com/user-attachments/assets/fbab55bb-0b71-43f8-bb85-4833bad92528)
@@ -191,14 +191,14 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ### a-ha moments or challenge:
 
-#### I was able to create a different model types using Babylon in order to build a house. I was also able to use different properties to maneuver models.
+#### I was able to create different model types using Babylon in order to build a house. I was also able to use different properties to maneuver models.
 
 ### Questions I still have
-#### How to implement animations using challenge of making a house.
+#### How to implement animations using the challenge of making a house.
 
 ### What you're going to try next:
 
-#### My next step is to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically adding door and multiple windows for this house using Babylon.
+#### My next step is to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically adding doors and multiple windows for this house using Babylon.
 
 ## 01/13/25
 ### My resources and goal:
@@ -235,7 +235,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-I was confused with purpose of certain codes including `const camera`, `const light`, `const groundMat` and `const faceUV = [];` which had plenty of codes inside. All of these certain codes are materiuals of texture, color, and options parameter to set different images on each side which I've tinkered with so far.
+I was confused with the purpose of certain codes including 'const camera`, `const light`, `const groundMat` and `const faceUV = [];` which had plenty of codes inside. All of these certain codes are materials of texture, color, and options parameter to set different images on each side which I've tinkered with so far.
 ### After:
 ![Screenshot 2025-01-06 2 16 54 PM](https://github.com/user-attachments/assets/4b9b1771-9dce-473c-8ccb-405bcb6febf9)
 ![Screenshot 2025-01-06 2 17 27 PM](https://github.com/user-attachments/assets/e7afb6a6-6c08-4dd7-b5c9-c97d16153966)
@@ -270,9 +270,9 @@ I was confused with purpose of certain codes including `const camera`, `const li
 #### I learned that  `const camera` is how a house is seen all the way from top so it's like a camera that shows how a house actually looks like, `const light` is how light or how dark a house is, `const groundMat` is size (height/weight) of ground and `const faceUV = [];` which had plenty of codes inside are rear face, front face, right side, and left side of a house.
     
 ### a-ha moments or challenge:
-#### I was able to create a different model types using Babylon in order to materials of a house. I was also able to use different properties to maneuver models in order to tinker with materials of a house.
+#### I was able to create different model types using Babylon in order to make the materials of a house. I was also able to use different properties to maneuver models in order to tinker with materials of a house.
 ### Questions I still have:
-#### How to implement more animations using challenge of making a house.
+#### How to implement more animations using the challenge of making a house.
 ### What you're going to try next:
 #### I'm going to try [Expanding the House Building Function](https://playground.babylonjs.com/#KBS9I5#77)
 <!-- 
