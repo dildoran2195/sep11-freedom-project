@@ -202,7 +202,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ## 01/13/25
 ### My resources and goal:
-#### MY goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to the house and how house looks like in outside. I also to [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+#### MY goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to a house and how a house looks like in outside. I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2025-01-06 2 21 15 PM](https://github.com/user-attachments/assets/9334a344-5c29-4805-a5b9-1a3523a5b7d5)
@@ -267,13 +267,14 @@ I was confused with purpose of certain codes including `const camera`, `const li
 ```
 
 ### Things you learned through tinkering:
-#### I learned that  `const camera` is how the house is seen all the way from top so it's like a camera that shows how house actually looks like, `const light` is how light or how dark the house is, `const groundMat` and `const faceUV = [];` which had plenty of codes inside.
+#### I learned that  `const camera` is how a house is seen all the way from top so it's like a camera that shows how a house actually looks like, `const light` is how light or how dark a house is, `const groundMat` is size (height/weight) of ground and `const faceUV = [];` which had plenty of codes inside are rear face, front face, right side, and left side of a house.
+    
 ### a-ha moments or challenge:
-
+#### I was able to create a different model types using Babylon in order to materials of a house. I was also able to use different properties to maneuver models in order to tinker with materials of a house.
 ### Questions I still have:
-
+#### How to implement more animations using challenge of making a house.
 ### What you're going to try next:
-
+### I'm going to try [Expanding the House Building Function](https://playground.babylonjs.com/#KBS9I5#77)
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
