@@ -202,7 +202,7 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ## 01/13/25
 ### My resources and goal:
-#### MY goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to a house and how a house looks like in outside. I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+#### My goal was to tinker with [Material For Each House Side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/) which is basically building materials to a house and how a house looks like in outside. I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2025-01-06 2 21 15 PM](https://github.com/user-attachments/assets/9334a344-5c29-4805-a5b9-1a3523a5b7d5)
@@ -274,7 +274,7 @@ I was confused with purpose of certain codes including `const camera`, `const li
 ### Questions I still have:
 #### How to implement more animations using challenge of making a house.
 ### What you're going to try next:
-### I'm going to try [Expanding the House Building Function](https://playground.babylonjs.com/#KBS9I5#77)
+#### I'm going to try [Expanding the House Building Function](https://playground.babylonjs.com/#KBS9I5#77)
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
