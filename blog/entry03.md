@@ -7,7 +7,7 @@
 
 ### How I have been tinkering with Babylon during Winter Recess:
 
-#### During the past weeks, I have been improving my knowledge of Babylon by learning more and more through tinkering. Specifically, I have learned functions of shapes and playground like parameters, positions, etc,. and how to create a unique house using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose documents or code to tinker with like shapes, playground, and house. I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as parameters, positions, etc,. The things I've learned includes:
+#### During the past break, I have been improving my knowledge of Babylon by learning more and more through tinkering. Specifically, I have learned functions of how to do animation using Babylon and how to create a unique animated car using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose documents or code to tinker with like shapes, animation, positions, values, functions, car, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as fram, value, positions, animation, etc,. The things I've learned includes:
 
 * I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere because it was so common so I used this code by doing code below:
 ```
@@ -27,7 +27,7 @@ lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
 // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
 ```
-* I used Babylon's playground feature in order to learn more about functions of playground and shapes but previous thing I learned was my unique roof of my house using [building a house](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
+* I used Babylon's playground feature in order to learn more about functions of playground and shapes but previous thing I learned was my unique roof of my house using [building a house]([https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation)/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
 
 * I made a unique roof that is completely different from the recent one by changing its scaling, rotation, position, width, height of ground, diameter, height, tessellation of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got longer through it´s new height than it´s old width.
 ```JS
