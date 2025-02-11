@@ -12,12 +12,15 @@
 
 - [Create basic webpage consisting of background information/context for product] (deadline: 3/1)
   - [Gather info for context page] Subtask (deadline: 2/20)
-  - []
+  - [Gather all codes/functions/ or arrays in one page for this webpage] (deadline: 3/10)
+  - [Gather any images for webpage including any missing info] (deadline: 2/25)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [Finish webpage with 3D Medical Simulation using Babylon] Task
+  - [Create draft of medical simulation using Babylon] (deadline: 3/20)] Subtask
+  - [Put all of these codes + background information into webpage with link for 3D Medical Simulation] (deadline: 5/20)
+  - [Double check anything that is extra or missing for webpage including the simulation using Babylon] (deadline: 6/10)
 
 
 <!-- EXAMPLE
