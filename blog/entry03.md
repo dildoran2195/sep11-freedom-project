@@ -7,13 +7,14 @@
 
 ### How I have been tinkering with Babylon during Winter Recess:
 
-#### During the past break, I have been improving my knowledge of Babylon by learning more and more through tinkering. Specifically, I have learned functions of how to do animation using Babylon and how to create a unique animated car using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose documents or code to tinker with like shapes, animation, positions, values, functions, car, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as fram, value, positions, animation, etc,. The things I've learned includes:
+#### During the past break, I have been improving my knowledge of Babylon by learning more and more about how to create 3D objects through tinkering. Specifically, I have learned functions of how to do animated buildings using Babylon and how to create a unique 3D objects by making copy of it. I went to [Babylon website](https://www.babylonjs.com/) and chose [copying meshes](https://playground.babylonjs.com/#KBS9I5#78) which basically created 3D objects and copying houses to make multiple of them in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as fram, 3D objects, value, positions, animation, etc,. The things I've learned includes:
 
 * I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere because it was so common so I used this code by doing code below:
 ```
 // Our built-in 'goldenberg' shape. var sphere = BABYLON.MeshBuilder.CreateGoldberg("Goldenberg", {diameter: 2, segments: 32}, scene); // Move the goldenberg upward 1/2 its height sphere.position.y = 1;
 ```
-![Screenshot 2024-12-16 9 16 35 AM](https://github.com/user-attachments/assets/ed7c4bf9-81df-4b48-ad8b-21c2edc3c93d)
+![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
+
 
 * I learned that light.density changed how shape is shown, either dark or light and I increased light.density. Diameter is width and segment is like size of the shape or height. sphere.position is where the shape is located by creating code below:
 ```
