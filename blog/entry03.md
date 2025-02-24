@@ -29,8 +29,11 @@
     places.push([1, -Math.PI / 7, 5.55, 9 ]);
     places.push([2, -Math.PI / 7, 3, 9 ]);
 ```
+## Before
 ![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
 
+## After
+![Screenshot 2025-02-24 11 17 41 AM](https://github.com/user-attachments/assets/ecd1cc1d-6dc4-4814-ba69-a0182e0925d4)
 
 * I learned that light.density changed how shape is shown, either dark or light and I increased light.density. Diameter is width and segment is like size of the shape or height. sphere.position is where the shape is located by creating code below:
 ```
