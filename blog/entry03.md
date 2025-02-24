@@ -35,19 +35,16 @@
 ## After
 ![Screenshot 2025-02-24 11 17 41 AM](https://github.com/user-attachments/assets/ecd1cc1d-6dc4-4814-ba69-a0182e0925d4)
 
-* I learned that light.density changed how shape is shown, either dark or light and I increased light.density. Diameter is width and segment is like size of the shape or height. sphere.position is where the shape is located by creating code below:
+* I learned that  const `faceUV = [];` is parameter that gives multiple options to set different images on each side of house. Also, I was consused with what functions of  `faceUV = [];` represent, like which one represents whhich house but I was able to figure it out by tinkering so I saw their purpose, `faceUV[0]` --> rear face, `faceUV[1]`--> front face, `faceUV[2]`--> right side, and `faceUV[3]`--> left side
 ```
-// Default intensity is 1. Let's dim the light a small amount
-    light.intensity = 0.5;
-
-// Our built-in 'sphere' shape.
-    var sphere = BABYLON.MeshBui!
-lder.CreateSphere("sphere", {diameter: 5, segments: 50}, scene);
-
-// Move the sphere upward 1/2 its height
-    sphere.position.y = 2;
+   const faceUV = [];
+    if (width == 30) {
+        faceUV[0] = new BABYLON.Vector4(1.6, 1.0, 1.0, 1.0); 
+        faceUV[1] = new BABYLON.Vector4(1.0, 1.0, 1.4, 1.0);
+        faceUV[2] = new BABYLON.Vector4(1.4, 1, 1.6, 1.0);
+        faceUV[3] = new BABYLON.Vector4(1.4, 1, 1.6, 1.0); 
 ```
-* I used Babylon's playground feature in order to learn more about functions of playground and shapes but previous thing I learned was my unique roof of my house using [building a house]([https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation)/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own thing
+* I used Babylon's 3D object challenge steps in order to learn more about 3D objects, functions of playground and shapes but previous thing I learned was my unique roof of my house using [building a house]([https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation)/) and how to tinker with it by understanding it´s code or functions in order to change them to make it my own process.
 
 * I made a unique roof that is completely different from the recent one by changing its scaling, rotation, position, width, height of ground, diameter, height, tessellation of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got longer through it´s new height than it´s old width.
 ```JS
