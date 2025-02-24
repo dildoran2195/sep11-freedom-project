@@ -9,25 +9,25 @@
 
 #### During the past break, I have been improving my knowledge of Babylon by learning more and more about how to create 3D objects through tinkering. Specifically, I have learned functions of how to do animated buildings using Babylon and how to create a unique 3D objects by making copy of it. I went to [Babylon website](https://www.babylonjs.com/) and chose [copying meshes](https://playground.babylonjs.com/#KBS9I5#78) which basically created 3D objects and copying houses to make multiple of them in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as fram, 3D objects, value, positions, animation, etc,. The things I've learned includes:
 
-* I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere because it was so common so I used this code by doing code below:
+* I learned `places push` is an array that represents house type, rotation, as x, z in order from 1st varibale to last variable. I tinkered with it to see it´s changes so I will learn purpose of those functions which were all an array that represents house type, rotation, as x, z
 ```
-    places.push([1, -Math.PI / 16, -6.8, 2.5 ]);
-    places.push([2, -Math.PI / 16, -4.5, 3 ]);
-    places.push([2, -Math.PI / 16, -1.5, 4 ]);
-    places.push([2, -Math.PI / 3, 1.5, 6 ]);
-    places.push([2, 15 * Math.PI / 16, -6.4, -1.5 ]);
-    places.push([1, 15 * Math.PI / 16, -4.1, -1 ]);
-    places.push([2, 15 * Math.PI / 16, -2.1, -0.5 ]);
-    places.push([1, 5 * Math.PI / 4, 0, -1 ]);
-    places.push([1, Math.PI + Math.PI / 2.5, 0.5, -3 ]);
-    places.push([2, Math.PI + Math.PI / 2.1, 0.75, -5 ]);
-    places.push([1, Math.PI + Math.PI / 2.25, 0.75, -7 ]);
-    places.push([2, Math.PI / 1.9, 4.75, -1 ]);
-    places.push([1, Math.PI / 1.95, 4.5, -3 ]);
-    places.push([2, Math.PI / 1.9, 4.75, -5 ]);
-    places.push([1, Math.PI / 1.9, 4.75, -7 ]);
-    places.push([2, -Math.PI / 3, 5.25, 2 ]);
-    places.push([1, -Math.PI / 3, 6, 4 ]);
+    places.push([2, -Math.PI / 15, -6.5, 2.9 ]);
+    places.push([1, -Math.PI / 14, -4.8, 4 ]);
+    places.push([3, -Math.PI / 11, -1.3, 6 ]);
+    places.push([1, -Math.PI / 5, 1.8, 9 ]);
+    places.push([2, 15 * Math.PI / 15, -6.3, -1.2 ]);
+    places.push([2, 15 * Math.PI / 14, -4.5, -6 ]);
+    places.push([1, 15 * Math.PI / 19, -2.5, -0.3 ]);
+    places.push([2, 5 * Math.PI / 8, 0, -3 ]);
+    places.push([2, Math.PI + Math.PI / 2.8, 0.1, -2 ]);
+    places.push([1, Math.PI + Math.PI / 2.9, 0.55, -2 ]);
+    places.push([2, Math.PI + Math.PI / 2.65, 0.95, -5 ]);
+    places.push([1, Math.PI / 5.5, 9.35, -9 ]);
+    places.push([2, Math.PI / 2.95, 8.5, -9 ]);
+    places.push([1, Math.PI / 4.9, 9.75, -9 ]);
+    places.push([2, Math.PI / 3.9, 7.45, -9 ]);
+    places.push([1, -Math.PI / 7, 5.55, 9 ]);
+    places.push([2, -Math.PI / 7, 3, 9 ]);
 ```
 ![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
 
