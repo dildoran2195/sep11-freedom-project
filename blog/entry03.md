@@ -11,7 +11,23 @@
 
 * I learned light density is the amount of color in a playground that has only a sphere. I didn't like the shape of the sphere because it was so common so I used this code by doing code below:
 ```
-// Our built-in 'goldenberg' shape. var sphere = BABYLON.MeshBuilder.CreateGoldberg("Goldenberg", {diameter: 2, segments: 32}, scene); // Move the goldenberg upward 1/2 its height sphere.position.y = 1;
+    places.push([1, -Math.PI / 16, -6.8, 2.5 ]);
+    places.push([2, -Math.PI / 16, -4.5, 3 ]);
+    places.push([2, -Math.PI / 16, -1.5, 4 ]);
+    places.push([2, -Math.PI / 3, 1.5, 6 ]);
+    places.push([2, 15 * Math.PI / 16, -6.4, -1.5 ]);
+    places.push([1, 15 * Math.PI / 16, -4.1, -1 ]);
+    places.push([2, 15 * Math.PI / 16, -2.1, -0.5 ]);
+    places.push([1, 5 * Math.PI / 4, 0, -1 ]);
+    places.push([1, Math.PI + Math.PI / 2.5, 0.5, -3 ]);
+    places.push([2, Math.PI + Math.PI / 2.1, 0.75, -5 ]);
+    places.push([1, Math.PI + Math.PI / 2.25, 0.75, -7 ]);
+    places.push([2, Math.PI / 1.9, 4.75, -1 ]);
+    places.push([1, Math.PI / 1.95, 4.5, -3 ]);
+    places.push([2, Math.PI / 1.9, 4.75, -5 ]);
+    places.push([1, Math.PI / 1.9, 4.75, -7 ]);
+    places.push([2, -Math.PI / 3, 5.25, 2 ]);
+    places.push([1, -Math.PI / 3, 6, 4 ]);
 ```
 ![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
 
