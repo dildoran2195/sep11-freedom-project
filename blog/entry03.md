@@ -46,25 +46,33 @@
 ```
 * I used Babylon's 3D object challenge steps in order to learn more about 3D objects, functions of playground and shapes but previous thing I learned was making a unique roof that is completely different from the recent one by changing its scaling, rotation, position, width, height of ground, diameter, height, tessellation of my unique roof, and position of my box using [building a house]([https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation)/) Also, how to tinker with it by understanding it´s code or functions in order to learn them to make it my own process.
 
-* I made a unique roof that is completely different from the recent one by changing its scaling, rotation, position, width, height of ground, diameter, height, tessellation of my unique roof, and position of my box which made my roof to look more bigger and a little far away from our box that created my unique roof. Ground got longer through it´s new height than it´s old width.
+* I learned how to make 3D objects, shapes, how to change it´s functions, and how to make multiple of them at the same time using advanced Babylon. However, I mainly tinkered with its parametrs, 3D shapes, height, world objects, texture, colors, array, width, material, scalling, rotation, x, y, positions, camera & light, and how to create instances from the first two that were built.
 ```JS
 const box = BABYLON.MeshBuilder.CreateBox("box", {});
-    box.position.y = 0.8;
-    const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 2.2, height: 1.8, tessellation: 3});
-    roof.scaling.x = 1.00;
+    faceUV[0] = new BABYLON.Vector4(1.6, 1.0, 1.0, 1.0); 
+    const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 4, Math.PI / 3.5, 11, new BABYLON.Vector3(0, 0, 0));
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(2, 2, 1));
+    groundMat.diffuseColor = new BABYLON.Color3(0, 0.93, 1);
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:25, height:26});
+    const box = BABYLON.MeshBuilder.CreateBox("box", {width: width, faceUV: faceUV, wrap: true});
+    box.position.y = 0.5;
+    const roof = BABYLON.MeshBuilder.CreateCylinder("roof", {diameter: 1.3, height: 1.2, tessellation: 3});
+    roof.material = roofMat;
+    roof.scaling.x = 1.75;
+    roof.scaling.y = width;
     roof.rotation.z = Math.PI / 2;
-    roof.position.y = 2.11;
-    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:5, height:15});
+    roof.position.y = 2.22;
 ```
-![Screenshot 2024-12-02 11 04 01 AM](https://github.com/user-attachments/assets/9c48c2b8-677d-4288-9adc-e345e0023405)
+![Screenshot 2025-02-24 3 41 36 PM](https://github.com/user-attachments/assets/eec3114d-55fb-4070-bfa9-370d85ab32f7)
 
-* However, I was confused with what the purpose of tessellation is and why it's important. Therefore I changed my tessellation from 2 to 5 to know what it does and why it is important.
+* However, I was confused with what the purpose of `const places = [];` is and why it's important. Therefore I changed my `const places = [];` from it´s original variables to new variables to know what it does and why it is important.
 
-![Screenshot 2024-12-02 11 17 37 AM](https://github.com/user-attachments/assets/42d1549a-cf81-4a6a-9dbe-ee10682acf70)
+![Screenshot 2025-02-24 3 51 32 PM](https://github.com/user-attachments/assets/e1d60b94-efcf-4e99-b028-6da727b9c4d5)
 
-* I learned that tessellation is like shape of a roof that changed how it looks like
 
-#### Lastly, my plans for Winter recess are to complete Challenge 2 of building house by tinkering with [adding texture](https://doc.babylonjs.com/features/introductionToFeatures/chap2/material/), [materials for each house side](https://doc.babylonjs.com/features/introductionToFeatures/chap2/face_material/), and [combining meshes](https://doc.babylonjs.com/features/introductionToFeatures/chap2/combine/).
+* I learned that `const places = [];` represents each entry that is an array of house type, rotation, and x, z
+
+#### Lastly, my plans for continuing to process my tinkerings of how to create 3D objects using Babylon for our medical simulation is to complete [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) and [A Walk Around The Village](https://doc.babylonjs.com/features/introductionToFeatures/chap3/walkpath/)
 
 
 ### EDP
