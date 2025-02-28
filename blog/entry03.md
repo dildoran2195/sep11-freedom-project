@@ -91,7 +91,8 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 #### I learned skill of Consideration by considering every small details and itś impacts which built on my skill of paying attention to every small details. I considered impacts of my tinkerings by taking notes which were learning 3D objects since it is very important for our simulation of technology in medicine so I believed that considering leads to success. For example, I considered every function in 3D objects which taught me that `const places = [];` represents each entry that is an array of house type, rotation, and x, z. Also, these consdierations would be my resources when building a simulation in the career of medicine. Plus, Babylon resources that I used to tinker were created by other people which I considered and put sources to give them credit for their work. However, consideration could sometimes be too much if you are also considering too many details so it is always bets to break it up so you want get overwhelmed so you could use those considertaion any time in the future.  
 
 ### Summary
-#### I am pretty excited to extend best possible solution for lack of technologies in medicine without relying on existing technologies and others.
+#### Finally, I am pretty excited to extend best possible solution for lack of technologies in medicine without relying on existing technologies and others. However, I am excited to make a simulation for technologies of medicine and serving positive impacts both on my community and my future. Speaking of future, I changed future career of mine to Nurse Practicioner so I would do my best to  continue my curoisty of a medical simulaation which bulds up my future career wuth my partner and using Babylon especially 3D objects. Therefore, I'm going to extend my efforts on this FP by breaking it down into pieces.  
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
