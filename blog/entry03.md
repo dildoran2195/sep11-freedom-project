@@ -9,7 +9,7 @@
 
 #### During the past break, I have been improving my knowledge of Babylon by learning more and more about how to create 3D objects through tinkering. Specifically, I have learned functions of how to do animated buildings using Babylon and how to create a unique 3D objects by making copy of it. I went to [Babylon website](https://www.babylonjs.com/) and chose [copying meshes](https://playground.babylonjs.com/#KBS9I5#78) which basically created 3D objects and copying houses to make multiple of them in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as fram, 3D objects, value, positions, animation, etc,. The things I've learned includes:
 
-* I learned `places push` is an array that represents house type, rotation, as x, z in order from 1st varibale to last variable. I tinkered with it to see it´s changes so I will learn purpose of those functions which were all an array that represents house type, rotation, as x, z
+* I learned `places push` is an array that represents house type, rotation, as x, z in order from 1st varibale to last variable. I tinkered with it to see it´s changes so I will learn purpose of those functions which were all an array that represents house type, rotation, as x, z. Below is my tinkerings:
 ```
     places.push([2, -Math.PI / 15, -6.5, 2.9 ]);
     places.push([1, -Math.PI / 14, -4.8, 4 ]);
@@ -29,13 +29,16 @@
     places.push([1, -Math.PI / 7, 5.55, 9 ]);
     places.push([2, -Math.PI / 7, 3, 9 ]);
 ```
+
+* Images below are results of my tinkerings:
+
 ## Before
 ![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
 
 ## After
 ![Screenshot 2025-02-24 11 17 41 AM](https://github.com/user-attachments/assets/ecd1cc1d-6dc4-4814-ba69-a0182e0925d4)
 
-* I learned that  const `faceUV = [];` is parameter that gives multiple options to set different images on each side of house. Also, I was consused with what functions of  `faceUV = [];` represent, like which one represents whhich house but I was able to figure it out by tinkering so I saw their purpose, `faceUV[0]` --> rear face, `faceUV[1]`--> front face, `faceUV[2]`--> right side, and `faceUV[3]`--> left side
+* I learned that  const `faceUV = [];` is parameter that gives multiple options to set different images on each side of house. Also, I was consused with what functions of  `faceUV = [];` represent, like which one represents whhich house but I was able to figure it out by tinkering so I saw their purpose, `faceUV[0]` --> rear face, `faceUV[1]`--> front face, `faceUV[2]`--> right side, and `faceUV[3]`--> left side. Below is my tinkerings:
 ```
    const faceUV = [];
     if (width == 30) {
@@ -46,7 +49,7 @@
 ```
 * I used Babylon's 3D object challenge steps in order to learn more about 3D objects, functions of playground and shapes but previous thing I learned was making a unique roof that is completely different from the recent one by changing its scaling, rotation, position, width, height of ground, diameter, height, tessellation of my unique roof, and position of my box using [building a house]([https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation](https://doc.babylonjs.com/features/introductionToFeatures/chap2/variation)/) Also, how to tinker with it by understanding it´s code or functions in order to learn them to make it my own process.
 
-* I learned how to make 3D objects, shapes, how to change it´s functions, and how to make multiple of them at the same time using advanced Babylon. However, I mainly tinkered with its parametrs, 3D shapes, height, world objects, texture, colors, array, width, material, scalling, rotation, x, y, positions, camera & light, and how to create instances from the first two that were built.
+* I learned how to make 3D objects, shapes, how to change it´s functions, and how to make multiple of them at the same time using advanced Babylon. However, I mainly tinkered with its parametrs, 3D shapes, height, world objects, texture, colors, array, width, material, scalling, rotation, x, y, positions, camera & light, and how to create instances from the first two that were built. Below are my tinkerings from top to bottom of my result:
 ```JS
 const box = BABYLON.MeshBuilder.CreateBox("box", {});
     faceUV[0] = new BABYLON.Vector4(1.6, 1.0, 1.0, 1.0); 
