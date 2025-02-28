@@ -275,6 +275,124 @@ I was confused with the purpose of certain codes including 'const camera`, `cons
 #### How to implement more animations using the challenge of making a house.
 ### What you're going to try next:
 #### I'm going to try [Expanding the House Building Function](https://playground.babylonjs.com/#KBS9I5#77)
+
+### 3.4.25
+## 01/13/25
+### My resources and goal:
+#### My goal was to tinker with 3D objects [copying meshes](https://playground.babylonjs.com/#KBS9I5#78) which is basically making copy of 3D objects to a house and how a house looks like in outside. I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+
+### Before:
+![Screenshot 2025-02-28 3 24 18 PM](https://github.com/user-attachments/assets/5fc11333-d72f-4d1c-8ecd-20b7aeb80a57)
+
+```
+/******Build Functions***********/
+const buildGround = () => {
+    //color
+    const groundMat = new BABYLON.StandardMaterial("groundMat");
+    groundMat.diffuseColor = new BABYLON.Color3(0, 1, 0);
+
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:15, height:16});
+    ground.material = groundMat;
+}
+places.push([1, -Math.PI / 16, -6.8, 2.5 ]);
+    places.push([2, -Math.PI / 16, -4.5, 3 ]);
+    places.push([2, -Math.PI / 16, -1.5, 4 ]);
+    places.push([2, -Math.PI / 3, 1.5, 6 ]);
+    places.push([2, 15 * Math.PI / 16, -6.4, -1.5 ]);
+    places.push([1, 15 * Math.PI / 16, -4.1, -1 ]);
+    places.push([2, 15 * Math.PI / 16, -2.1, -0.5 ]);
+    places.push([1, 5 * Math.PI / 4, 0, -1 ]);
+    places.push([1, Math.PI + Math.PI / 2.5, 0.5, -3 ]);
+    places.push([2, Math.PI + Math.PI / 2.1, 0.75, -5 ]);
+    places.push([1, Math.PI + Math.PI / 2.25, 0.75, -7 ]);
+    places.push([2, Math.PI / 1.9, 4.75, -1 ]);
+    places.push([1, Math.PI / 1.95, 4.5, -3 ]);
+    places.push([2, Math.PI / 1.9, 4.75, -5 ]);
+    places.push([1, Math.PI / 1.9, 4.75, -7 ]);
+    places.push([2, -Math.PI / 3, 5.25, 2 ]);
+    places.push([1, -Math.PI / 3, 6, 4 ]);
+
+const faceUV = [];
+    if (width == 2) {
+        faceUV[0] = new BABYLON.Vector4(0.6, 0.0, 1.0, 1.0); //rear face
+        faceUV[1] = new BABYLON.Vector4(0.0, 0.0, 0.4, 1.0); //front face
+        faceUV[2] = new BABYLON.Vector4(0.4, 0, 0.6, 1.0); //right side
+        faceUV[3] = new BABYLON.Vector4(0.4, 0, 0.6, 1.0); //left side
+    }
+    else {
+        faceUV[0] = new BABYLON.Vector4(0.5, 0.0, 0.75, 1.0); //rear face
+        faceUV[1] = new BABYLON.Vector4(0.0, 0.0, 0.25, 1.0); //front face
+        faceUV[2] = new BABYLON.Vector4(0.25, 0, 0.5, 1.0); //right side
+        faceUV[3] = new BABYLON.Vector4(0.75, 0, 1.0, 1.0); //left side
+    }
+```
+
+### Things you tried, tinkered with, your progress, etc.,:
+I was confused with the purpose of certain codes including 'const camera`, faceUV[0]`, `const groundMat` and `places.push([1, -Math.PI / 16, -6.8, 2.5 ]);` which had plenty of codes inside. All of these certain codes are materials of an array, position, rotation, apperance, side length, width, height, house type, rotation, and x, z which I've tinkered with so far.
+### After:
+![Screenshot 2025-02-28 3 49 13 PM](https://github.com/user-attachments/assets/33611f5d-6458-47aa-bca3-5580cb8bf1e8)
+![Screenshot 2025-02-28 3 49 27 PM](https://github.com/user-attachments/assets/cc76c932-6967-46d6-8a5b-81ff558ab942)
+
+```
+places.push([1, -Math.PI / 19, -6.8, 2.5 ]);
+    places.push([2, -Math.PI / 18, -9.5, 8 ]);
+    places.push([2, -Math.PI / 19, -1.9, 7 ]);
+    places.push([2, -Math.PI / 6, 9.5, 5 ]);
+    places.push([2, 15 * Math.PI / 19, -6.4, -1.5 ]);
+    places.push([1, 15 * Math.PI / 18, -4.1, -1 ]);
+    places.push([2, 15 * Math.PI / 19, -2.1, -0.5 ]);
+    places.push([1, 5 * Math.PI / 2, 0, -1 ]);
+    places.push([1, Math.PI + Math.PI / 3.5, 0.5, -3 ]);
+    places.push([2, Math.PI + Math.PI / 2.1, 0.75, -5 ]);
+    places.push([1, Math.PI + Math.PI / 2.25, 0.75, -7 ]);
+    places.push([2, Math.PI / 6.9, 6.75, -1 ]);
+    places.push([1, Math.PI / 5.95, 8.5, -3 ]);
+    places.push([2, Math.PI / 5.9, 4.75, -5 ]);
+    places.push([1, Math.PI / 6.9, 8.75, -7 ]);
+    places.push([2, -Math.PI / 6, 5.25, 44 ]);
+    places.push([1, -Math.PI / 6, 7, 8 ]);
+
+const faceUV = [];
+    if (width == 2) {
+        faceUV[0] = new BABYLON.Vector4(5.1, 6.0, 5.0, 2.0); //rear face
+        faceUV[1] = new BABYLON.Vector4(5.9, 5.0, 5.4, 5.0); //front face
+        faceUV[2] = new BABYLON.Vector4(9.4, 4, 2.6, 4.0); //right side
+        faceUV[3] = new BABYLON.Vector4(3.4, 2, 7.6, 4.0); //left side
+    }
+    else {
+        faceUV[0] = new BABYLON.Vector4(3.9, 3.5, 1.75, 2.0); //rear face
+        faceUV[1] = new BABYLON.Vector4(4.9, 2.6, 1.25, 2.0); //front face
+        faceUV[2] = new BABYLON.Vector4(5.25, 2, 8.5, 5.0); //right side
+        faceUV[3] = new BABYLON.Vector4(6.75, 4, 1.0, 2.0); //left side
+
+const box = BABYLON.MeshBuilder.CreateBox("box", {width: width, faceUV: faceUV, wrap: true});
+    box.material = boxMat;
+    box.position.y = 0.5;
+    box.position = 9.9
+    box.getFacetDataParameters = 10
+    box.scaling = 9
+    return box;
+}
+const buildGround = () => {
+    //color
+    const groundMat = new BABYLON.StandardMaterial("groundMat");
+    groundMat.diffuseColor = new BABYLON.Color3(0, 1, 0);
+
+    const ground = BABYLON.MeshBuilder.CreateGround("ground", {width:30, height:29});
+    ground.material = groundMat;
+}
+
+```
+
+### Things you learned through tinkering:
+#### I learned that const places = []; represents each entry that is an array of house type, rotation, and x, z. I learned how to make 3D objects, shapes, how to change its functions, and how to make multiple of them at the same time using advanced Babylon. However, I mainly tinkered with its parameters, 3D shapes, height, world objects, texture, colors, array, width, material, scaling, rotation, x, y, positions, camera & light, and how to create instances from the first two that were built. I learned that const faceUV = []; is a parameter that gives multiple options to set different images on each side of the house. Also, I was confused with what functions of faceUV = []; represent, like which one represents which house but I was able to figure it out by tinkering so I saw their purpose, faceUV[0] --> rear face, faceUV[1]--> front face, faceUV[2]--> right side, and faceUV[3]--> left side. Below is my tinkerings: Below are my tinkerings from top to bottom of my result:
+    
+### a-ha moments or challenge:
+#### I was able to create copy of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a house. Plus, I was also able to use different properties to  const faceUV = []; models in order to tinker with copies of a house.
+### Questions I still have:
+#### How to implement more 3D objects using the challenge of making a house.
+### What you're going to try next:
+#### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) and [A Walk Around The Village](https://doc.babylonjs.com/features/introductionToFeatures/chap3/walkpath/)
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
