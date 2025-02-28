@@ -35,6 +35,7 @@
 ## Before
 ![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
 
+ * I tinkered with  `places push` below which changed positions of houses and `places push` is an array that represents house type, rotation, as x, z in order from 1st variable to last variable.
 ## After
 ![Screenshot 2025-02-24 11 17 41 AM](https://github.com/user-attachments/assets/ecd1cc1d-6dc4-4814-ba69-a0182e0925d4)
 
