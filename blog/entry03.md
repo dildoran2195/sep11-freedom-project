@@ -80,8 +80,11 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {});
 
 ### EDP
 
-#### Since I completed step 2 in my Blog 1, I'm on step 4 of EDP which is planning the most promising solutions for technology of medicine. As I mentioned in my Blog 2, best solution for the lack of technologies is a simulation for technology of medicine in order to get rid of the lack of technologies in career of healthcare and medicine by extending knowledge of Babylon. Our planning for the most promising solutions is still a simulation for technology of medicine because
-    
+#### Since I completed step 2 in my Blog 1, I'm on step 4 of EDP which is planning the most promising solutions for technology of medicine. As I mentioned in my Blog 2, best solution for the lack of technologies is a simulation for technology of medicine in order to get rid of the lack of technologies in career of healthcare and medicine by extending knowledge of Babylon. Our planning for the most promising solutions is still a simulation for lack of technology in medicine because we brainstormed possible solutions since step 1 but we still have to plan the best efficient solution. However, we are still in process of exteding information which we defined it during brainstorming the possible solutions because these plans would help a lot to build a final solution in order to fix lack of technologies in medicine using Babylon. Our plan is to create a prototype using Babylon which is step 5 after we test our various codes from Babylon. 
+
+### Reflection
+
+I look forward to continue finding new potential solutions even with an existing primary solution to ensure the continuation of medicine.
 ### Skills
 I learned 2 skills: Time Management & How to learn:
 
