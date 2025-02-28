@@ -30,7 +30,7 @@
     places.push([2, -Math.PI / 7, 3, 9 ]);
 ```
 
-* Images below are results of my tinkerings:
+* Images below are results of my tinkerings: I was trying to change `places push` and color to see they results would be.
 
 ## Before
 ![Screenshot 2025-02-24 11 05 41 AM](https://github.com/user-attachments/assets/069d1921-84b2-4957-8754-f52a1cdb15fa)
