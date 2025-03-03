@@ -10,18 +10,21 @@
 
 #### MVP
 
-- [ ] Create basic webpage consisting of background information/context for product (deadline: 3/1) -- Dildora & Michaela
-  - [ ] Gather info for context page -- Subtask (deadline: 2/20) -- Dildora
-  - [ ] Gather all codes/functions/ or arrays in one page for this webpage (deadline: 3/10) -- Michaela & Dildora
-  - [ ] Gather any images for webpage including any missing info for context (deadline: 3/25) -- Dildora
+- [ ] Create basic webpage consisting of background information/context for product (deadline: 3/20)
+  - [ ] Gather info for context page (deadline: 3/1) (Michaela)
+  - [ ] Put together necessary HTML to align with gathered information including navbar, lists, cards, etc. (deadline: 3/10) (Michaela)
+  - [ ] Put together necessary CSS to align with gathered information including coloring, sizing, fonts, etc. (deadline: 3/10) (Dildora)
+  - [ ] Input images/screenshots (deadline: 3/15) (Dildora) 
+  - [ ] Incorporate JS including arrays, functions, loops, and conditionals (deadline: 3/25) (Michaela)
+  - [ ] Edit the page and fix bugs (deadline: 3/30) (Michaela and Dildora)
+- [ ] Create simulation prototype (deadline: 4/20)
+  - [ ] Gather key information including scene code and other supporting code to create a basic interactive simulation (deadline: 4/5) (Michaela)
+  - [ ] Conjoin all of the gathered code and run a functioning protoype of the sim (deadline: 4/15) (Michaela and Dildora)
+  - [ ] Edit as needed including fixing bugs (deadline: 4/20) (Michaela and Dildora)
+- [ ] Edit the project as a whole and test run (deadline: 4/20) (Michaela and Dildora)
 
 #### Beyond MVP
 
-- [ ] Finish webpage with 3D Medical Simulation using Babylon: Task
-  - [ ] Create draft of medical simulation using Babylon (deadline: 4/20) Subtask -- Michaela
-  - [ ] Put all of these codes + background information into webpage with link for 3D Medical Simulation (deadline: 5/20) -- Dildora
-  - [ ] Final touches for Medical Simulation from draft using Babylon -- Subtask (deadline: 6/5) -- Michaela & Dildora
-  - [ ] Double check anything that is extra or missing for webpage including the simulation using Babylon (deadline: 6/10) -- Michaela & Dildora
 
 
 <!-- EXAMPLE
