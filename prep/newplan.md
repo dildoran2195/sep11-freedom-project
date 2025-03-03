@@ -11,7 +11,7 @@
 #### MVP
 
 - [ ] Create basic webpage consisting of background information/context for product (deadline: 3/20)
-  - [ ] Gather info for context page (deadline: 3/1) (Michaela)
+  - [x] Gather info for context page (deadline: 3/1) (Michaela)
   - [ ] Put together necessary HTML to align with gathered information including navbar, lists, cards, etc. (deadline: 3/10) (Michaela)
   - [ ] Put together necessary CSS to align with gathered information including coloring, sizing, fonts, etc. (deadline: 3/10) (Dildora)
   - [ ] Input images/screenshots (deadline: 3/15) (Dildora) 
@@ -25,8 +25,9 @@
 
 #### Beyond MVP
 
-
-
+- [ ] Animations to the webpage to animate the project more. (Michaela)
+- [ ] Add extra images and diversify the CSS to complexify the webpage. (Dildora)
+ 
 <!-- EXAMPLE
 
 ## Tool: APIs
