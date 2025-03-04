@@ -398,7 +398,7 @@ const buildGround = () => {
 ### 3.4.25
 ## 01/13/25
 ### My resources and goal:
-#### My goal was to tinker with 3D objects [copying meshes](https://playground.babylonjs.com/#KBS9I5#78) which is basically making copy of 3D objects to a house and how a house looks like in outside. I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+#### My goal was to tinker with 3D objects and animation by [Creating walking character around the village](https://playground.babylonjs.com/#KBS9I5#81) which is basically making new animated character who is walking around the village and characer looks like in outside and in different sides. I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2025-03-04 10 53 13 AM](https://github.com/user-attachments/assets/f78df15b-8abc-4046-b013-6886f05d9a49)
@@ -439,7 +439,7 @@ const track = [];
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-I was confused with the purpose of certain codes including 'const camera`, faceUV[0]`, `const groundMat` and `places.push([1, -Math.PI / 16, -6.8, 2.5 ]);` which had plenty of codes inside. All of these certain codes are materials of an array, position, rotation, apperance, side length, width, height, house type, rotation, and x, z which I've tinkered with so far.
+I was confused with the purpose of certain codes including 'track.push(new walk(96, 9));`, `dude.scaling`, `dude.position` `dude.rotate`, ` let distance;`, `let step;`, `let p` and `scene.beginAnimation` which had plenty of codes inside. All of these certain codes are materials of an speed, animation, position, rotation, apperance, side length, width, height, rotation, and x, z which I've tinkered with so far.
 ### After:
 ![Screenshot 2025-03-04 10 50 19 AM](https://github.com/user-attachments/assets/64b0f9bc-b1ff-4d30-8d60-e259e4d33947)
 ![Screenshot 2025-03-04 10 51 08 AM](https://github.com/user-attachments/assets/9efc97ed-01f1-4d26-a8f5-36dc95dd2145)
@@ -476,8 +476,6 @@ const track = [];
      const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2.5, Math.PI / 4.2, 18, new BABYLON.Vector3(0, 0, 0));
     camera.attachControl(canvas, true);
     const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
-
-
 ```
 
 ### Things you learned through tinkering:
