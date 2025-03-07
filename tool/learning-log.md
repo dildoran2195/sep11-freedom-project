@@ -441,7 +441,7 @@ const track = [];
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-I was confused with the purpose of certain codes including `track.push`, const startRotation = dude.rotationQuaternion.clone();`,`scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` which had plenty of codes inside. All of these certain codes are materials of an speed of walking character, height, animation, position, apperance, height, rotation, and x, z which I've tinkered with so far.
+I was confused with the purpose of certain codes including `track.push`, `const startRotation = dude.rotationQuaternion.clone();` and `scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` which had plenty of codes inside. All of these certain codes are materials of an speed of walking character, height, animation, position, apperance, height, rotation, and x, z which I've tinkered with so far.
 
 ### After:
 ![Screenshot 2025-03-04 10 50 19 AM](https://github.com/user-attachments/assets/64b0f9bc-b1ff-4d30-8d60-e259e4d33947)
