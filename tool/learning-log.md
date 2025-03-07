@@ -389,8 +389,10 @@ const buildGround = () => {
     
 ### a-ha moments or challenge:
 #### I was able to create copy of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a house. Plus, I was also able to use different properties to `const faceUV = [];` models in order to tinker with copies of a house.
+
 ### Questions I still have:
-#### How to implement more 3D objects using the challenge of making a house.
+#### How to implement more basic animation and 3D objects using the challenge of making a village.
+
 ### What you're going to try next:
 #### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) and [A Walk Around The Village](https://doc.babylonjs.com/features/introductionToFeatures/chap3/walkpath/)
 
@@ -439,7 +441,8 @@ const track = [];
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-I was confused with the purpose of certain codes including 'track.push(new walk(96, 9));`, `dude.scaling`, `dude.position` `dude.rotate`, ` let distance;`, `let step;`, `let p` and `scene.beginAnimation` which had plenty of codes inside. All of these certain codes are materials of an speed, animation, position, rotation, apperance, side length, width, height, rotation, and x, z which I've tinkered with so far.
+I was confused with the purpose of certain codes including `track.push`, const startRotation = dude.rotationQuaternion.clone();`,`scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` which had plenty of codes inside. All of these certain codes are materials of an speed of walking character, height, animation, position, apperance, height, rotation, and x, z which I've tinkered with so far.
+
 ### After:
 ![Screenshot 2025-03-04 10 50 19 AM](https://github.com/user-attachments/assets/64b0f9bc-b1ff-4d30-8d60-e259e4d33947)
 ![Screenshot 2025-03-04 10 51 08 AM](https://github.com/user-attachments/assets/9efc97ed-01f1-4d26-a8f5-36dc95dd2145)
@@ -479,14 +482,17 @@ const track = [];
 ```
 
 ### Things you learned through tinkering:
-#### I learned that const places = []; represents each entry that is an array of house type, rotation, and x, z. I learned how to make 3D objects, shapes, how to change its functions, and how to make multiple of them at the same time using advanced Babylon. However, I mainly tinkered with its parameters, 3D shapes, height, world objects, texture, colors, array, width, material, scaling, rotation, x, y, positions, camera & light, and how to create instances from the first two that were built. I learned that const faceUV = []; is a parameter that gives multiple options to set different images on each side of the house. Also, I was confused with what functions of faceUV = []; represent, like which one represents which house but I was able to figure it out by tinkering so I saw their purpose, faceUV[0] --> rear face, faceUV[1]--> front face, faceUV[2]--> right side, and faceUV[3]--> left side. Below is my tinkerings: Below are my tinkerings from top to bottom of my result:
+
+#### I learned that `track.push` ---> speed of character in every step inclduing x and y values of its speed. `const startRotation = dude.rotationQuaternion.clone();` --->  rotation of walking character,`scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` ---> animated characters height, appearance, and width which are showed as x and y values. 
     
 ### a-ha moments or challenge:
-#### I was able to create copy of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a house. Plus, I was also able to use different properties to  const faceUV = []; models in order to tinker with copies of a house.
+#### I was able to create character who is walking around the village of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a village. Plus, I was also able to use different properties to  models in order to tinker with animation with a village
+
 ### Questions I still have:
-#### How to implement more 3D objects using the challenge of making a house.
+#### How to implement more advanced animation using the challenge of making a village.
+
 ### What you're going to try next:
-#### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) and [A Walk Around The Village](https://doc.babylonjs.com/features/introductionToFeatures/chap3/walkpath/)
+#### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) 
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
