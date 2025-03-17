@@ -500,3 +500,99 @@ const track = [];
 * Questions you still have
 * What you're going to try next
 -->
+
+### 3/24/25
+### My resources and goal:
+#### My goal was to tinker with animation by [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically making new animated fountain in a new way by tinkerimg with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+
+### Before:
+![Screenshot 2025-03-04 10 53 13 AM](https://github.com/user-attachments/assets/f78df15b-8abc-4046-b013-6886f05d9a49)
+![Screenshot 2025-03-04 10 53 21 AM](https://github.com/user-attachments/assets/aba29b8d-4989-440c-b06c-50790fddb112)
+![Screenshot 2025-03-04 10 53 49 AM](https://github.com/user-attachments/assets/dda32d5e-b609-4af4-b720-a6bbf0a012c8)
+
+```
+const track = [];
+    track.push(new walk(86, 7));
+    track.push(new walk(-85, 14.8));
+    track.push(new walk(-93, 16.5));
+    track.push(new walk(48, 25.5));
+    track.push(new walk(-112, 30.5));
+    track.push(new walk(-72, 33.2));
+    track.push(new walk(42, 37.5));
+    track.push(new walk(-98, 45.2));
+    track.push(new walk(0, 47))
+
+    // Dude
+    BABYLON.SceneLoader.ImportMeshAsync("him", "/scenes/Dude/", "Dude.babylon", scene).then((result) => {
+        var dude = result.meshes[0];
+        dude.scaling = new BABYLON.Vector3(0.008, 0.008, 0.008);
+            
+        dude.position = new BABYLON.Vector3(-6, 0, 0);
+        dude.rotate(BABYLON.Axis.Y, BABYLON.Tools.ToRadians(-95), BABYLON.Space.LOCAL);
+        const startRotation = dude.rotationQuaternion.clone();    
+            
+        scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);
+
+        let distance = 0;
+        let step = 0.015;
+        let p = 0;
+
+     const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 1.5, Math.PI / 2.2, 15, new BABYLON.Vector3(0, 0, 0));
+    camera.attachControl(canvas, true);
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
+
+```
+
+### Things you tried, tinkered with, your progress, etc.,:
+I was confused with the purpose of certain codes including `track.push`, `const startRotation = dude.rotationQuaternion.clone();` and `scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` which had plenty of codes inside. All of these certain codes are materials of an speed of walking character, height, animation, position, apperance, height, rotation, and x, z which I've tinkered with so far.
+
+### After:
+![Screenshot 2025-03-04 10 50 19 AM](https://github.com/user-attachments/assets/64b0f9bc-b1ff-4d30-8d60-e259e4d33947)
+![Screenshot 2025-03-04 10 51 08 AM](https://github.com/user-attachments/assets/9efc97ed-01f1-4d26-a8f5-36dc95dd2145)
+![Screenshot 2025-03-04 10 51 26 AM](https://github.com/user-attachments/assets/f40f6e57-20b7-4d63-af7b-589ea13366a8)
+
+
+```
+const track = [];
+    track.push(new walk(96, 9));
+    track.push(new walk(-65, 15.8));
+    track.push(new walk(-83, 17.5));
+    track.push(new walk(58, 35.5));
+    track.push(new walk(-122, 40.0));
+    track.push(new walk(-52, 43.0));
+    track.push(new walk(82, 47.0));
+    track.push(new walk(-88, 55.0));
+    track.push(new walk(100, 87))
+
+    // Dude
+    BABYLON.SceneLoader.ImportMeshAsync("him", "/scenes/Dude/", "Dude.babylon", scene).then((result) => {
+        var dude = result.meshes[0];
+        dude.scaling = new BABYLON.Vector3(0.118, 0.118, 0.118);
+            
+        dude.position = new BABYLON.Vector3(-9, 5, 5);
+        dude.rotate(BABYLON.Axis.Y, BABYLON.Tools.ToRadians(-85), BABYLON.Space.LOCAL);
+        const startRotation = dude.rotationQuaternion.clone();    
+            
+        scene.beginAnimation(result.skeletons[0], 5, 100, true, 1.0);
+
+        let distance = 0;
+        let step = 0.005;
+        let p = 0;
+
+     const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2.5, Math.PI / 4.2, 18, new BABYLON.Vector3(0, 0, 0));
+    camera.attachControl(canvas, true);
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
+```
+
+### Things you learned through tinkering:
+
+#### I learned that `track.push` ---> speed of character in every step inclduing x and y values of its speed. `const startRotation = dude.rotationQuaternion.clone();` --->  rotation of walking character,`scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` ---> animated characters height, appearance, and width which are showed as x and y values. 
+    
+### a-ha moments or challenge:
+#### I was able to create character who is walking around the village of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a village. Plus, I was also able to use different properties to  models in order to tinker with animation with a village
+
+### Questions I still have:
+#### How to implement more advanced animation using the challenge of making a village.
+
+### What you're going to try next:
+#### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) 
