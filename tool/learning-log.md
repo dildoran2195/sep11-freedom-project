@@ -508,6 +508,7 @@ const track = [];
 ### Before:
 ![Screenshot 2025-03-19 11 11 12 AM](https://github.com/user-attachments/assets/5d51ce29-5e59-4b51-b431-cd8a56207a51)
 ![Screenshot 2025-03-19 11 11 56 AM](https://github.com/user-attachments/assets/84fb89f2-ba27-4a3d-852e-62c573dc761a)
+![Screenshot 2025-03-19 12 22 53 PM](https://github.com/user-attachments/assets/d114d8f9-94f2-4a6a-b472-ea6c68381b3f)
 
 ```
 const fountainProfile = [
@@ -542,46 +543,43 @@ const fountainProfile = [
 I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
 
 ### After:
-![Screenshot 2025-03-04 10 50 19 AM](https://github.com/user-attachments/assets/64b0f9bc-b1ff-4d30-8d60-e259e4d33947)
-![Screenshot 2025-03-04 10 51 08 AM](https://github.com/user-attachments/assets/9efc97ed-01f1-4d26-a8f5-36dc95dd2145)
-![Screenshot 2025-03-04 10 51 26 AM](https://github.com/user-attachments/assets/f40f6e57-20b7-4d63-af7b-589ea13366a8)
-
+![Screenshot 2025-03-19 12 32 33 PM](https://github.com/user-attachments/assets/49efb0de-7077-47f2-bc31-53d08612586b)
+![Screenshot 2025-03-19 12 32 05 PM](https://github.com/user-attachments/assets/f4d85cf2-05a2-42ae-8f3c-662ff93d0b8d)
+![Screenshot 2025-03-19 12 31 48 PM](https://github.com/user-attachments/assets/3a35970b-f5cc-47bc-804a-536ca4f1357e)
+![Screenshot 2025-03-19 12 33 12 PM](https://github.com/user-attachments/assets/9d7d45ee-cf3d-48bb-8454-275af080f0c2)
 
 ```
-const track = [];
-    track.push(new walk(96, 9));
-    track.push(new walk(-65, 15.8));
-    track.push(new walk(-83, 17.5));
-    track.push(new walk(58, 35.5));
-    track.push(new walk(-122, 40.0));
-    track.push(new walk(-52, 43.0));
-    track.push(new walk(82, 47.0));
-    track.push(new walk(-88, 55.0));
-    track.push(new walk(100, 87))
+const fountainProfile = [
+		new BABYLON.Vector3(1, 2, 3),
+		new BABYLON.Vector3(9, 5, 2),
+        new BABYLON.Vector3(9, 18, 11),
+		new BABYLON.Vector3(18, 18, 12),
+        new BABYLON.Vector3(15, 11, 3),
+        new BABYLON.Vector3(11, 12, 11),
+		new BABYLON.Vector3(11, 11, 12),
+		new BABYLON.Vector3(11, 17, 12)
+	];
 
-    // Dude
-    BABYLON.SceneLoader.ImportMeshAsync("him", "/scenes/Dude/", "Dude.babylon", scene).then((result) => {
-        var dude = result.meshes[0];
-        dude.scaling = new BABYLON.Vector3(0.118, 0.118, 0.118);
-            
-        dude.position = new BABYLON.Vector3(-9, 5, 5);
-        dude.rotate(BABYLON.Axis.Y, BABYLON.Tools.ToRadians(-85), BABYLON.Space.LOCAL);
-        const startRotation = dude.rotationQuaternion.clone();    
-            
-        scene.beginAnimation(result.skeletons[0], 5, 100, true, 1.0);
+    particleSystem.emitter = new BABYLON.Vector3(15, 7, 8);
+    particleSystem.minEmitBox = new BABYLON.Vector3(-1, 10, 8);
+    particleSystem.maxEmitBox = new BABYLON.Vector3(0, 1, 0);
 
-        let distance = 0;
-        let step = 0.005;
-        let p = 0;
+    particleSystem.color1 = new BABYLON.Color4(0.14, 0.96, 0.04);
+    particleSystem.color2 = new BABYLON.Color4(0.85, 0.2, 0.03);
+    particleSystem.colorDead = new BABYLON.Color4(0.96, 0.04, 0.91, 0.96);
 
-     const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2.5, Math.PI / 4.2, 18, new BABYLON.Vector3(0, 0, 0));
-    camera.attachControl(canvas, true);
-    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
+    particleSystem.minSize = 4;
+    particleSystem.maxSize = 4;
+
+    particleSystem.minLifeTime = 8;
+    particleSystem.maxLifeTime = 8;
+
+    particleSystem.emitRate = 2500;
 ```
 
 ### Things you learned through tinkering:
 
-#### I learned that `track.push` ---> speed of character in every step inclduing x and y values of its speed. `const startRotation = dude.rotationQuaternion.clone();` --->  rotation of walking character,`scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` ---> animated characters height, appearance, and width which are showed as x and y values. 
+#### I learned that `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
     
 ### a-ha moments or challenge:
 #### I was able to create character who is walking around the village of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a village. Plus, I was also able to use different properties to  models in order to tinker with animation with a village
