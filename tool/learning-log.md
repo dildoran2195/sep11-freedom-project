@@ -506,45 +506,40 @@ const track = [];
 #### My goal was to tinker with animation by [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically making new animated fountain in a new way by tinkerimg with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
-![Screenshot 2025-03-04 10 53 13 AM](https://github.com/user-attachments/assets/f78df15b-8abc-4046-b013-6886f05d9a49)
-![Screenshot 2025-03-04 10 53 21 AM](https://github.com/user-attachments/assets/aba29b8d-4989-440c-b06c-50790fddb112)
-![Screenshot 2025-03-04 10 53 49 AM](https://github.com/user-attachments/assets/dda32d5e-b609-4af4-b720-a6bbf0a012c8)
+![Screenshot 2025-03-19 11 11 12 AM](https://github.com/user-attachments/assets/5d51ce29-5e59-4b51-b431-cd8a56207a51)
+![Screenshot 2025-03-19 11 11 56 AM](https://github.com/user-attachments/assets/84fb89f2-ba27-4a3d-852e-62c573dc761a)
 
 ```
-const track = [];
-    track.push(new walk(86, 7));
-    track.push(new walk(-85, 14.8));
-    track.push(new walk(-93, 16.5));
-    track.push(new walk(48, 25.5));
-    track.push(new walk(-112, 30.5));
-    track.push(new walk(-72, 33.2));
-    track.push(new walk(42, 37.5));
-    track.push(new walk(-98, 45.2));
-    track.push(new walk(0, 47))
+const fountainProfile = [
+		new BABYLON.Vector3(0, 0, 0),
+		new BABYLON.Vector3(10, 0, 0),
+        new BABYLON.Vector3(10, 4, 0),
+		new BABYLON.Vector3(8, 4, 0),
+        new BABYLON.Vector3(8, 1, 0),
+        new BABYLON.Vector3(1, 2, 0),
+		new BABYLON.Vector3(1, 15, 0),
+		new BABYLON.Vector3(3, 17, 0)
+	];
 
-    // Dude
-    BABYLON.SceneLoader.ImportMeshAsync("him", "/scenes/Dude/", "Dude.babylon", scene).then((result) => {
-        var dude = result.meshes[0];
-        dude.scaling = new BABYLON.Vector3(0.008, 0.008, 0.008);
-            
-        dude.position = new BABYLON.Vector3(-6, 0, 0);
-        dude.rotate(BABYLON.Axis.Y, BABYLON.Tools.ToRadians(-95), BABYLON.Space.LOCAL);
-        const startRotation = dude.rotationQuaternion.clone();    
-            
-        scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);
+ particleSystem.emitter = new BABYLON.Vector3(0, 10, 0); 
+    particleSystem.minEmitBox = new BABYLON.Vector3(-1, 0, 0); 
+    particleSystem.maxEmitBox = new BABYLON.Vector3(1, 0, 0); 
 
-        let distance = 0;
-        let step = 0.015;
-        let p = 0;
+    particleSystem.color1 = new BABYLON.Color4(0.93, 0.05, 0.45);
+    particleSystem.color2 = new BABYLON.Color4(0.99, 0.9, 0.08);
+    particleSystem.colorDead = new BABYLON.Color4(0.82, 0.04, 0.98, 0.95);
 
-     const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 1.5, Math.PI / 2.2, 15, new BABYLON.Vector3(0, 0, 0));
-    camera.attachControl(canvas, true);
-    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
+    particleSystem.minSize = 0.1;
+    particleSystem.maxSize = 0.5;
 
+    particleSystem.minLifeTime = 2;
+    particleSystem.maxLifeTime = 3.5;
+
+    particleSystem.emitRate = 1500;
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-I was confused with the purpose of certain codes including `track.push`, `const startRotation = dude.rotationQuaternion.clone();` and `scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` which had plenty of codes inside. All of these certain codes are materials of an speed of walking character, height, animation, position, apperance, height, rotation, and x, z which I've tinkered with so far.
+I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
 
 ### After:
 ![Screenshot 2025-03-04 10 50 19 AM](https://github.com/user-attachments/assets/64b0f9bc-b1ff-4d30-8d60-e259e4d33947)
