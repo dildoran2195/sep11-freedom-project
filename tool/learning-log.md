@@ -547,6 +547,8 @@ I was confused with the purpose of certain codes including `const fountainProfil
 ![Screenshot 2025-03-19 12 32 05 PM](https://github.com/user-attachments/assets/f4d85cf2-05a2-42ae-8f3c-662ff93d0b8d)
 ![Screenshot 2025-03-19 12 31 48 PM](https://github.com/user-attachments/assets/3a35970b-f5cc-47bc-804a-536ca4f1357e)
 ![Screenshot 2025-03-19 12 33 12 PM](https://github.com/user-attachments/assets/9d7d45ee-cf3d-48bb-8454-275af080f0c2)
+![Screenshot 2025-03-19 12 34 45 PM](https://github.com/user-attachments/assets/e35d0fb4-e5b4-4abf-8156-1392c0a80f44)
+
 
 ```
 const fountainProfile = [
@@ -579,13 +581,13 @@ const fountainProfile = [
 
 ### Things you learned through tinkering:
 
-#### I learned that `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
-    
+#### I learned that `const fountainProfile` --> shapes of the fountain not the water, ` particleSystem.emitter` --> Where the particles come from, `particleSystem.emitRate` --> Emission rate, `particleSystem.minSize` --> Size of each particle (random between max and min), `particleSystem.color1` --> Colors of all particles especially the water , and `particleSystem.minLifeTime` --> Life time of each particle (random between max and min) so they are baiscally speed, size, shape, appearance, fountain, animation, etc,.
+
 ### a-ha moments or challenge:
-#### I was able to create character who is walking around the village of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a village. Plus, I was also able to use different properties to  models in order to tinker with animation with a village
+#### I was able to create unique fountain of my own that had different color of water and different shapes of the fountain but most importantly it is animated with 3D object fo a fountain using Babylon in order to make the new fountain. Plus, I was also able to use different properties and animation to  models in order to tinker with animated fountain.
 
 ### Questions I still have:
-#### How to implement more advanced animation using the challenge of making a village.
+#### How to implement more advanced version of both 3D objects and animation using the challenge of making a fountain.
 
 ### What you're going to try next:
 #### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/) 
