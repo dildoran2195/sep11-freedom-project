@@ -218,6 +218,8 @@ Since I completed steps 1 through 3, now I am planning the most promising soluti
 
 * I learned the skill of creativity and learned how to think outside the box, be innovative, and create the future. For example, I created unique animated characters walking using Babylon instead of changing their shapes or color which is pretty basic so I wanted to go outside of the box and make my character completely different from the original one in order to learn characteristics of Babylon. Also, my partner and I are creating a website for the future which we have already started using our creativity of how we should plan it out in order to actually successed. I was pretty innovative in considering Javascript, Babylon, and p5js to create a medical simualtion and planning out specifc parts which we need to actually use these consepts as resources. I tried dmy best to be creative during tinkering with Babylon so I could be on top of my tinkefimng for the best of my ability. Therefore, this skill is pretty important as it gives you more than what you are limited to. 
 
+### Summary
+#### 
 
 [Previous](entry03.md) | [Next](entry05.md)
 
