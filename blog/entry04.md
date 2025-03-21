@@ -219,7 +219,7 @@ Since I completed steps 1 through 3, now I am planning the most promising soluti
 * I learned the skill of creativity and learned how to think outside the box, be innovative, and create the future. For example, I created unique animated characters walking using Babylon instead of changing their shapes or color which is pretty basic so I wanted to go outside of the box and make my character completely different from the original one in order to learn characteristics of Babylon. Also, my partner and I are creating a website for the future which we have already started using our creativity of how we should plan it out in order to actually successed. I was pretty innovative in considering Javascript, Babylon, and p5js to create a medical simualtion and planning out specifc parts which we need to actually use these consepts as resources. I tried dmy best to be creative during tinkering with Babylon so I could be on top of my tinkefimng for the best of my ability. Therefore, this skill is pretty important as it gives you more than what you are limited to. 
 
 ### Summary
-#### 
+#### As a result, I am ready to continue extending the best possible solution for the lack of technologies in medicine without relying on existing technologies and others. Therefore, I am excited to make a simulation for technologies of medicine and serve positive impacts both on my community and my future with my partner. Additionally, I'm going to extend my efforts on this FP by breaking it down into pieces and successfully complete this prroject.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
