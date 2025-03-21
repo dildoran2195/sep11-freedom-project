@@ -203,7 +203,7 @@ const track = [];
 
 * Analysis: I learned that `track.push` ---> speed of character in every step including x and y values of its speed. `const startRotation = dude.rotationQuaternion.clone();` --->  rotation of walking character,`scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);` ---> animated characters height, appearance, and width which are showed as x and y values. 
 
-*Therefore, I was able to create a character who is walking around the village of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a village. Plus, I was also able to use different properties to  models in order to tinker with animation with a village
+* Therefore, I was able to create a character who is walking around the village of 3D objects and tinkering with them using model types using Babylon in order to make the materials of a village. Plus, I was also able to use different properties to  models in order to tinker with animation with a village
 
 
 ### Engineering Design Process
@@ -211,6 +211,13 @@ const track = [];
 Since I completed steps 1 through 3, now I am planning the most promising solution in order to solve the problem of lacking technologies in medicine that I figured out in step 1 (brainstorming) which is basically step four in this case. Currently, I am almost done with gaining knowledge of both Javascript and Babylon in order to create a website that introudces my solution with a simulation model that positively contributes to development of medical technology so I need to merge my knowledge of those together to do so. However, Javascript and Babylon are still not enough so I just have to finish off p5js in order to be on top of my website through a medical simulation model that solves lack of technologies in the medical field. Therefore, I have to sucessfully complete p5js with skills and experiences which leads me to finish and plan step 5 which is eventually creating a functional prototype adn this is my plan for Blog 5 along with new tinkering on my tool list.
 
 ### Skills
+
+#### I achieved skills of Organization and Creativity
+
+* I learned the skill of organization for file management, hierarchy and relationships, whiteboarding my ideas throughout this process of planning to create a simautlation. I had notes for Javascript, p5js, and Babylon to stay orgaizne and to refer back whenever I needed it in order to combine them in certain situations. For example, I went back to my notes for Babylon since I was curious about what is the next step I have to do in order to be orgzanized with my knowledge of Babylon. I also organzied my relationship with my partner to stay connected and planned dyas to complete our MVP Plan which we did so we are actually starting out a website from scratch as we organized. Additionally, we were organized in a hierarchy to know who is better than us in Bbaylon and viewed their work to get motivation along the way with inspiration. Therefore, this skill is pretty important as it helps us to stay on top of certain responsibilities. 
+
+* I learned the skill of creativity and learned how to think outside the box, be innovative, and create the future. For example, I created unique animated characters walking using Babylon instead of changing their shapes or color which is pretty basic so I wanted to go outside of the box and make my character completely different from the original one in order to learn characteristics of Babylon. Also, my partner and I are creating a website for the future which we have already started using our creativity of how we should plan it out in order to actually successed. I was pretty innovative in considering Javascript, Babylon, and p5js to create a medical simualtion and planning out specifc parts which we need to actually use these consepts as resources. I tried dmy best to be creative during tinkering with Babylon so I could be on top of my tinkefimng for the best of my ability. Therefore, this skill is pretty important as it gives you more than what you are limited to. 
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
