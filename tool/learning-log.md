@@ -593,5 +593,94 @@ const fountainProfile = [
 #### I'm going to try out [Changing the Viewer's Camera](https://doc.babylonjs.com/features/introductionToFeatures/chap2/viewer2/)
 
 ### 4/1/25
+### My resources and goal:
+#### My goal was to tinker with animation by [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically making new animated and mysterious object seen in the sky in a new way by tinkerimg with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+
+### Before:
+![Screenshot 2025-03-19 11 11 12 AM](https://github.com/user-attachments/assets/5d51ce29-5e59-4b51-b431-cd8a56207a51)
+![Screenshot 2025-03-19 11 11 56 AM](https://github.com/user-attachments/assets/84fb89f2-ba27-4a3d-852e-62c573dc761a)
+![Screenshot 2025-03-19 12 22 53 PM](https://github.com/user-attachments/assets/d114d8f9-94f2-4a6a-b472-ea6c68381b3f)
+
+```
+const fountainProfile = [
+		new BABYLON.Vector3(0, 0, 0),
+		new BABYLON.Vector3(10, 0, 0),
+        new BABYLON.Vector3(10, 4, 0),
+		new BABYLON.Vector3(8, 4, 0),
+        new BABYLON.Vector3(8, 1, 0),
+        new BABYLON.Vector3(1, 2, 0),
+		new BABYLON.Vector3(1, 15, 0),
+		new BABYLON.Vector3(3, 17, 0)
+	];
+
+ particleSystem.emitter = new BABYLON.Vector3(0, 10, 0); 
+    particleSystem.minEmitBox = new BABYLON.Vector3(-1, 0, 0); 
+    particleSystem.maxEmitBox = new BABYLON.Vector3(1, 0, 0); 
+
+    particleSystem.color1 = new BABYLON.Color4(0.93, 0.05, 0.45);
+    particleSystem.color2 = new BABYLON.Color4(0.99, 0.9, 0.08);
+    particleSystem.colorDead = new BABYLON.Color4(0.82, 0.04, 0.98, 0.95);
+
+    particleSystem.minSize = 0.1;
+    particleSystem.maxSize = 0.5;
+
+    particleSystem.minLifeTime = 2;
+    particleSystem.maxLifeTime = 3.5;
+
+    particleSystem.emitRate = 1500;
+```
+
+### Things you tried, tinkered with, your progress, etc.,:
+I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
+
+### After:
+![Screenshot 2025-03-19 12 32 33 PM](https://github.com/user-attachments/assets/49efb0de-7077-47f2-bc31-53d08612586b)
+![Screenshot 2025-03-19 12 32 05 PM](https://github.com/user-attachments/assets/f4d85cf2-05a2-42ae-8f3c-662ff93d0b8d)
+![Screenshot 2025-03-19 12 31 48 PM](https://github.com/user-attachments/assets/3a35970b-f5cc-47bc-804a-536ca4f1357e)
+![Screenshot 2025-03-19 12 33 12 PM](https://github.com/user-attachments/assets/9d7d45ee-cf3d-48bb-8454-275af080f0c2)
+![Screenshot 2025-03-19 12 34 45 PM](https://github.com/user-attachments/assets/e35d0fb4-e5b4-4abf-8156-1392c0a80f44)
+
+
+```
+const fountainProfile = [
+		new BABYLON.Vector3(1, 2, 3),
+		new BABYLON.Vector3(9, 5, 2),
+        new BABYLON.Vector3(9, 18, 11),
+		new BABYLON.Vector3(18, 18, 12),
+        new BABYLON.Vector3(15, 11, 3),
+        new BABYLON.Vector3(11, 12, 11),
+		new BABYLON.Vector3(11, 11, 12),
+		new BABYLON.Vector3(11, 17, 12)
+	];
+
+    particleSystem.emitter = new BABYLON.Vector3(15, 7, 8);
+    particleSystem.minEmitBox = new BABYLON.Vector3(-1, 10, 8);
+    particleSystem.maxEmitBox = new BABYLON.Vector3(0, 1, 0);
+
+    particleSystem.color1 = new BABYLON.Color4(0.14, 0.96, 0.04);
+    particleSystem.color2 = new BABYLON.Color4(0.85, 0.2, 0.03);
+    particleSystem.colorDead = new BABYLON.Color4(0.96, 0.04, 0.91, 0.96);
+
+    particleSystem.minSize = 4;
+    particleSystem.maxSize = 4;
+
+    particleSystem.minLifeTime = 8;
+    particleSystem.maxLifeTime = 8;
+
+    particleSystem.emitRate = 2500;
+```
+
+### Things you learned through tinkering:
+
+#### I learned that `const fountainProfile` --> shapes of the fountain not the water, ` particleSystem.emitter` --> Where the particles come from, `particleSystem.emitRate` --> Emission rate, `particleSystem.minSize` --> Size of each particle (random between max and min), `particleSystem.color1` --> Colors of all particles especially the water , and `particleSystem.minLifeTime` --> Life time of each particle (random between max and min) so they are baiscally speed, size, shape, appearance, fountain, animation, etc,.
+
+### a-ha moments or challenge:
+#### I was able to create unique fountain of my own that had different color of water and different shapes of the fountain but most importantly it is animated with 3D object fo a fountain using Babylon in order to make the new fountain. Plus, I was also able to use different properties and animation to  models in order to tinker with animated fountain.
+
+### Questions I still have:
+#### How to implement more advanced version of both 3D objects and animation using the challenge of making a fountain.
+
+### What you're going to try next:
+#### I'm going to try out [Add sprite trees to your scene](https://playground.babylonjs.com/#KBS9I5#89)
 
 
