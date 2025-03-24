@@ -15,7 +15,7 @@
   - [ ] Put together necessary HTML to align with gathered information including navbar, lists, cards, etc. (deadline: 3/10) (Michaela)
   - [ ] Put together necessary CSS to align with gathered information including coloring, sizing, fonts, etc. (deadline: 3/10) (Dildora)
   - [ ] Input images/screenshots (deadline: 3/15) (Dildora) 
-  - [ ] Incorporate JS including arrays, functions, loops, and conditionals (deadline: 3/25) (Michaela)
+  - [ ] Incorporate JS including arrays, functions, loops, and conditionals (deadline: 3/25) (Michaela and Dildora)
   - [ ] Edit the page and fix bugs (deadline: 3/30) (Michaela and Dildora)
 - [ ] Create simulation prototype (deadline: 4/20)
   - [ ] Gather key information including scene code and other supporting code to create a basic interactive simulation (deadline: 4/5) (Michaela)
