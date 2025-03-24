@@ -597,77 +597,66 @@ const fountainProfile = [
 #### My goal was to tinker with animation by [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically making new animated and mysterious object seen in the sky in a new way by tinkerimg with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
-![Screenshot 2025-03-19 11 11 12 AM](https://github.com/user-attachments/assets/5d51ce29-5e59-4b51-b431-cd8a56207a51)
-![Screenshot 2025-03-19 11 11 56 AM](https://github.com/user-attachments/assets/84fb89f2-ba27-4a3d-852e-62c573dc761a)
-![Screenshot 2025-03-19 12 22 53 PM](https://github.com/user-attachments/assets/d114d8f9-94f2-4a6a-b472-ea6c68381b3f)
+![Screenshot 2025-03-24 11 28 07 AM](https://github.com/user-attachments/assets/9aff9354-28a0-4355-bf38-02e4b9c274e8)
+![Screenshot 2025-03-24 11 27 59 AM](https://github.com/user-attachments/assets/400dcef6-3616-4171-931e-2a17bbc1d81a)
+![Screenshot 2025-03-24 11 27 43 AM](https://github.com/user-attachments/assets/4ab23ce6-d52b-4991-a41b-302f3bb2373a)
 
 ```
-const fountainProfile = [
-		new BABYLON.Vector3(0, 0, 0),
-		new BABYLON.Vector3(10, 0, 0),
-        new BABYLON.Vector3(10, 4, 0),
-		new BABYLON.Vector3(8, 4, 0),
-        new BABYLON.Vector3(8, 1, 0),
-        new BABYLON.Vector3(1, 2, 0),
-		new BABYLON.Vector3(1, 15, 0),
-		new BABYLON.Vector3(3, 17, 0)
-	];
+const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 15, new BABYLON.Vector3(0, 0, 0));
+    camera.upperBetaLimit = Math.PI / 2.2;
+    camera.attachControl(canvas, true);
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
 
- particleSystem.emitter = new BABYLON.Vector3(0, 10, 0); 
-    particleSystem.minEmitBox = new BABYLON.Vector3(-1, 0, 0); 
-    particleSystem.maxEmitBox = new BABYLON.Vector3(1, 0, 0); 
+const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.babylonjs.com/environments/ufo.png", 1, {width: 128, height: 76});
+    const ufo = new BABYLON.Sprite("ufo", spriteManagerUFO);
+    ufo.playAnimation(0, 16, true, 125);
+    ufo.position.y = 5;
+    ufo.position.z = 0;
+    ufo.width = 2;
+    ufo.height = 1;
 
-    particleSystem.color1 = new BABYLON.Color4(0.93, 0.05, 0.45);
-    particleSystem.color2 = new BABYLON.Color4(0.99, 0.9, 0.08);
-    particleSystem.colorDead = new BABYLON.Color4(0.82, 0.04, 0.98, 0.95);
-
-    particleSystem.minSize = 0.1;
-    particleSystem.maxSize = 0.5;
-
-    particleSystem.minLifeTime = 2;
-    particleSystem.maxLifeTime = 3.5;
-
-    particleSystem.emitRate = 1500;
+    const skybox = BABYLON.MeshBuilder.CreateBox("skyBox", {size:150}, scene);
+	  const skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
+	  skyboxMaterial.backFaceCulling = false;
+	  skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("textures/skybox", scene);
+	  skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
+	  skyboxMaterial.diffuseColor = new BABYLON.Color3(0, 0, 0);
+	  skyboxMaterial.specularColor = new BABYLON.Color3(0, 0, 0);
+	  skybox.material = skyboxMaterial;
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
 I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
 
 ### After:
-![Screenshot 2025-03-19 12 32 33 PM](https://github.com/user-attachments/assets/49efb0de-7077-47f2-bc31-53d08612586b)
-![Screenshot 2025-03-19 12 32 05 PM](https://github.com/user-attachments/assets/f4d85cf2-05a2-42ae-8f3c-662ff93d0b8d)
-![Screenshot 2025-03-19 12 31 48 PM](https://github.com/user-attachments/assets/3a35970b-f5cc-47bc-804a-536ca4f1357e)
-![Screenshot 2025-03-19 12 33 12 PM](https://github.com/user-attachments/assets/9d7d45ee-cf3d-48bb-8454-275af080f0c2)
-![Screenshot 2025-03-19 12 34 45 PM](https://github.com/user-attachments/assets/e35d0fb4-e5b4-4abf-8156-1392c0a80f44)
+![Screenshot 2025-03-24 11 41 12 AM](https://github.com/user-attachments/assets/99a97482-51d3-4811-a6e4-22e622df8f3f)
+![Screenshot 2025-03-24 11 40 59 AM](https://github.com/user-attachments/assets/93637819-b53d-4029-bf7a-3f2e9d5b6dde)
+![Screenshot 2025-03-24 11 40 47 AM](https://github.com/user-attachments/assets/ca313f85-ab04-46ec-afb3-e9d8528d44a6)
 
 
 ```
-const fountainProfile = [
-		new BABYLON.Vector3(1, 2, 3),
-		new BABYLON.Vector3(9, 5, 2),
-        new BABYLON.Vector3(9, 18, 11),
-		new BABYLON.Vector3(18, 18, 12),
-        new BABYLON.Vector3(15, 11, 3),
-        new BABYLON.Vector3(11, 12, 11),
-		new BABYLON.Vector3(11, 11, 12),
-		new BABYLON.Vector3(11, 17, 12)
-	];
+    const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 3, Math.PI / 3.5, 20, new BABYLON.Vector3(2, 1, 2));
+    camera.upperBetaLimit = Math.PI / 4.2;
+    camera.attachControl(canvas, true);
+    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(2, 1, 2));
 
-    particleSystem.emitter = new BABYLON.Vector3(15, 7, 8);
-    particleSystem.minEmitBox = new BABYLON.Vector3(-1, 10, 8);
-    particleSystem.maxEmitBox = new BABYLON.Vector3(0, 1, 0);
-
-    particleSystem.color1 = new BABYLON.Color4(0.14, 0.96, 0.04);
-    particleSystem.color2 = new BABYLON.Color4(0.85, 0.2, 0.03);
-    particleSystem.colorDead = new BABYLON.Color4(0.96, 0.04, 0.91, 0.96);
-
-    particleSystem.minSize = 4;
-    particleSystem.maxSize = 4;
-
-    particleSystem.minLifeTime = 8;
-    particleSystem.maxLifeTime = 8;
-
-    particleSystem.emitRate = 2500;
+    const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.babylonjs.com/environments/ufo.png", 1, {width: 128, height: 76});
+    const ufo = new BABYLON.Sprite("ufo", spriteManagerUFO);
+    ufo.playAnimation(2, 16, true, 155);
+    ufo.position.y = 8;
+    ufo.position.z = 5;
+    ufo.width = 4;
+    ufo.height = 2;
+    
+    //Skybox
+    const skybox = BABYLON.MeshBuilder.CreateBox("skyBox", {size:250}, scene);
+	  const skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
+	  skyboxMaterial.backFaceCulling = false;
+	  skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("textures/skybox", scene);
+	  skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
+	  skyboxMaterial.diffuseColor = new BABYLON.Color3(0.01, 0.98, 0.06);
+	  skyboxMaterial.specularColor = new BABYLON.Color3(0.97, 0.04, 0.43);
+	  skybox.material = skyboxMaterial;
 ```
 
 ### Things you learned through tinkering:
