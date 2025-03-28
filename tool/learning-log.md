@@ -626,7 +626,8 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 ```
 
 ### Things you tried, tinkered with, your progress, etc.,:
-I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
+I was confused with the purpose of certain codes including `const spriteManagerUFO`, `const skybox`, `particleSystem.emitRate`, `skyboxMaterial.diffuseColor`, `skyboxMaterial.specularColor` , and `ufo.playAnimation`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
+
 
 ### After:
 ![Screenshot 2025-03-24 11 41 12 AM](https://github.com/user-attachments/assets/99a97482-51d3-4811-a6e4-22e622df8f3f)
@@ -661,13 +662,14 @@ I was confused with the purpose of certain codes including `const fountainProfil
 
 ### Things you learned through tinkering:
 
-#### I learned that `const fountainProfile` --> shapes of the fountain not the water, ` particleSystem.emitter` --> Where the particles come from, `particleSystem.emitRate` --> Emission rate, `particleSystem.minSize` --> Size of each particle (random between max and min), `particleSystem.color1` --> Colors of all particles especially the water , and `particleSystem.minLifeTime` --> Life time of each particle (random between max and min) so they are baiscally speed, size, shape, appearance, fountain, animation, etc,.
+#### I learned that `const spriteManagerUFO` --> height and weight of the flying object, `const skybox` --> size of the flying object, `particleSystem.emitRate` --> speed and rotation, `skyboxMaterial.diffuseColor` --> color of sky, `skyboxMaterial.specularColor` --> 2nd color of sky that are mixed together, and `ufo.playAnimation` --> speed, animation, and position.Therefore, all these certain codes are materials of an speed of UFO, appearance, size, height, animation, position, rotation, and x, z, etc,.
+
 
 ### a-ha moments or challenge:
-#### I was able to create unique fountain of my own that had different color of water and different shapes of the fountain but most importantly it is animated with 3D object fo a fountain using Babylon in order to make the new fountain. Plus, I was also able to use different properties and animation to  models in order to tinker with animated fountain.
+#### I was able to create unique UFO which I never saw it before (LOL) of my own that had different apperances and different shapes of the flying object but most importantly it is animated with 3D object to a UFO using Babylon in order to make the new UFO. Plus, I was also able to use different properties and animation to  models in order to tinker with animated flying object.
 
 ### Questions I still have:
-#### How to implement more advanced version of both 3D objects and animation using the challenge of making a fountain.
+#### How to implement more advanced version of both 3D objects and animation using the challenge of making a UFO.
 
 ### What you're going to try next:
 #### I'm going to try out [Add sprite trees to your scene](https://playground.babylonjs.com/#KBS9I5#89)
