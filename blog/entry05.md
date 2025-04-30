@@ -5,7 +5,7 @@
 ## Concept: Babylon
 ##### 4/28/25
 
-### How I have been tinkering with Babylon recently:
+### How I have been learning Babylon and How I finished my MVP along with (link to the project! with Michaela)& Evidence: code snippets, screenshots, etc
 
 #### During the past weeks, I have been improving my knowledge of Babylon by learning more and more about how to create animations and 3D objects through tinkering. Specifically, I have learned how to do animated characters and buildings using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose [Creating walking character around the village](https://playground.babylonjs.com/#KBS9I5#81) which basically created animated character walking around the village along with advanced version of 3D objects [copying meshes](https://playground.babylonjs.com/#KBS9I5#78) which is basically expanding on 3D objects to a house and how a house looks like in outside in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as  3D objects, fram, value, positions, animation, etc,. The things I've learned includes:
 
