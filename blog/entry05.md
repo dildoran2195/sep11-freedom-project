@@ -7,9 +7,9 @@
 
 ### How I have been learning Babylon and How I finished my MVP with my partner
 
-#### During the past weeks, I successfuly completed my MVP with Michaela that insludes our website and our simulation using Babylon. I have been improving my knowledge of Babylon by learning more and more about how to create animations and 3D objects through tinkering. Specifically, I have learned how to do animated objects and 3D shape using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically creating animated object of fountain that spits out unique water around the village along with advanced version of 3D objects [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically expanding on 3D objects to a flying object in the sky and how animated UFO looks like in outside in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as  3D objects, fram, value, positions, animation, etc,. The things I've learned includes:
+#### During the past weeks, I successfully completed my MVP with Michaela that includes our website and our simulation using Babylon. I have been improving my knowledge of Babylon by learning more and more about how to create animations and 3D objects through tinkering. Specifically, I have learned how to do animated objects and 3D shapes using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically creating animated object of fountain that spits out unique water around the village along with advanced version of 3D objects [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically expanding on 3D objects to a flying object in the sky and how animated UFO looks like in outside in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as  3D objects, fram, value, positions, animation, etc,. The things I've learned includes:
 
-#### My goal was to tinker with animation by [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically making new animated fountain in a new way by tinkerimg with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+#### My goal was to tinker with animation by [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically making new animated fountain in a new way by tinkering with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2025-03-19 11 11 12 AM](https://github.com/user-attachments/assets/5d51ce29-5e59-4b51-b431-cd8a56207a51)
@@ -44,7 +44,7 @@ const fountainProfile = [
 
     particleSystem.emitRate = 1500;
 ```
-#### I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
+#### I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of a fountain's speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
 
 ### After:
 ![Screenshot 2025-03-19 12 32 33 PM](https://github.com/user-attachments/assets/49efb0de-7077-47f2-bc31-53d08612586b)
@@ -83,13 +83,13 @@ const fountainProfile = [
     particleSystem.emitRate = 2500;
 ```
 
-#### My tinkerings: I learned that `const fountainProfile` --> shapes of the fountain not the water, ` particleSystem.emitter` --> Where the particles come from, `particleSystem.emitRate` --> Emission rate, `particleSystem.minSize` --> Size of each particle (random between max and min), `particleSystem.color1` --> Colors of all particles especially the water , and `particleSystem.minLifeTime` --> Life time of each particle (random between max and min) so they are baiscally speed, size, shape, appearance, fountain, animation, etc,.
+#### My tinkerings: I learned that `const fountainProfile` --> shapes of the fountain not the water, ` particleSystem.emitter` --> Where the particles come from, `particleSystem.emitRate` --> Emission rate, `particleSystem.minSize` --> Size of each particle (random between max and min), `particleSystem.color1` --> Colors of all particles especially the water , and `particleSystem.minLifeTime` --> Lifetime of each particle (random between max and min) so they are basically speed, size, shape, appearance, fountain, animation, etc,.
 
-#### My challenges: I was able to create unique fountain of my own that had different color of water and different shapes of the fountain but most importantly it is animated with 3D object fo a fountain using Babylon in order to make the new fountain. Plus, I was also able to use different properties and animation to  models in order to tinker with animated fountain.
+#### My challenges: I was able to create a unique fountain of my own that had different colors of water and different shapes of the fountain but most importantly it is animated with a 3D object of a fountain using Babylon in order to make the new fountain. Plus, I was also able to use different properties and animation to  models in order to tinker with animated fountains.
 
-#### However, I still wonder how to implement more advanced version of both 3D objects and animation using the challenge of making a fountain.
+#### However, I still wonder how to implement more advanced versions of both 3D objects and animation using the challenge of making a fountain.
 
-#### Additionally, I was to tinker with animation by [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically making new animated and mysterious object seen in the sky in a new way by tinkerimg with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
+#### Additionally, I was to tinker with animation by [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically making new animated and mysterious object seen in the sky in a new way by tinkering with it and it look different in each side I used [Babylon](https://www.babylonjs.com/) to see various code/tools/projects that I could tinker with in order to learn more and more.
 
 ### Before:
 ![Screenshot 2025-03-24 11 28 07 AM](https://github.com/user-attachments/assets/9aff9354-28a0-4355-bf38-02e4b9c274e8)
@@ -115,7 +115,7 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 	  skyboxMaterial.specularColor = new BABYLON.Color3(0, 0, 0);
 	  skybox.material = skyboxMaterial;
 ```
-#### My tinkerings: I was confused with the purpose of certain codes including `const spriteManagerUFO`, `const skybox`, `particleSystem.emitRate`, `skyboxMaterial.diffuseColor`, `skyboxMaterial.specularColor` , and `ufo.playAnimation`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
+#### My tinkerings: I was confused with the purpose of certain codes including `cost spriteManagerUFO`, `const skybox`, `particleSystem.emitRate`, `skyboxMaterial.diffuseColor`, `skyboxMaterial.specularColor` , and `ufo.playAnimation`  which had plenty of codes inside. All of these certain codes are materials of a fountain's speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
 
 ### After:
 ![Screenshot 2025-03-24 11 41 12 AM](https://github.com/user-attachments/assets/99a97482-51d3-4811-a6e4-22e622df8f3f)
@@ -145,9 +145,9 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 
 #### I learned that `const spriteManagerUFO` --> height and weight of the flying object, `const skybox` --> size of the flying object, `particleSystem.emitRate` --> speed and rotation, `skyboxMaterial.diffuseColor` --> color of sky, `skyboxMaterial.specularColor` --> 2nd color of sky that are mixed together, and `ufo.playAnimation` --> speed, animation, and position.Therefore, all these certain codes are materials of an speed of UFO, appearance, size, height, animation, position, rotation, and x, z, etc,.
 
-#### My challenge: I was able to create unique UFO which I never saw it before (LOL) of my own that had different apperances and different shapes of the flying object but most importantly it is animated with 3D object to a UFO using Babylon in order to make the new UFO. Plus, I was also able to use different properties and animation to  models in order to tinker with animated flying object.
+#### My challenge: I was able to create a unique UFO which I never saw before (LOL) of my own that had different appearances and different shapes of the flying object but most importantly it is animated with a 3D object to a UFO using Babylon in order to make the new UFO. Plus, I was also able to use different properties and animation to  models in order to tinker with animated flying objects.
 
-#### I still wonder to implement more advanced version of both 3D objects and animation using the challenge of making a UFO.
+#### I still wonder how to implement more advanced versions of both 3D objects and animation using the challenge of making a UFO.
 #### I'm going to try out [Add sprite trees to your scene](https://playground.babylonjs.com/#KBS9I5#89)
 
 ### MVP
@@ -157,27 +157,24 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 
 * [This is the link to our MVP for code and full version](https://github.com/dildoran2195/medicalproject/blob/main/index.html)
 * Below is our simulation using Babylon called Advanced Blood Tester.
-![IMG_3404](https://github.com/user-attachments/assets/88d863c3-387e-4bd8-8ad7-13746bc40759)
-![IMG_3407](https://github.com/user-attachments/assets/bb3a3f89-d642-4f83-93ca-52a611357685)
-![IMG_3405](https://github.com/user-attachments/assets/dd239b70-3225-441b-934a-e534d5a6a39e)
- 
-* We stayed in the library and connected with each other through message in order to be up to date with what we have to finish and what we can improve on which gave us success so communication and connection is a key to completion. We followed the deadline and responsibilities of each other based on our plan sheet. For example, I did the CSS, Java, and simulation while my partner did HTML, Java, and Simulation because our goal was to show the general scope of medicine by considering the future and present instead of past.
+![IMG_3408](https://github.com/user-attachments/assets/d2983e2f-6447-45e7-8a91-a03cd536cf00)
+![IMG_3409](https://github.com/user-attachments/assets/739e1774-09de-4447-b7c8-90e4df7b3669)
+![IMG_3410](https://github.com/user-attachments/assets/d0a2213f-c24d-44a2-983c-2f607c290167)
+
+* We stayed in the library and connected with each other through messages in order to be up to date with what we have to finish and what we can improve on which gave us success so communication and connection is a key to completion. We followed the deadline and responsibilities of each other based on our plan sheet. For example, I did the CSS, Java, and simulation while my partner did HTML, Java, and Simulation because our goal was to show the general scope of medicine by considering the future and present instead of past.
 
 ### Engineering Design Process
 
-####  I have to sucessfully completed Babylon and Java that are enough for MVP and some p5js with skills and experiences which lead me to finish and plan step 5 (Create prorotype). Step 5 is basically creating a functional prototype. Our prorotype for step 5 is our simulation or Advanced Blood Tester using Babylon along with my tinkerings, knowledge, experiences, skills, and challenges during this project with my partner which I uploaded images above for MVP. We are in process of testing and evaluation our prorotype or Advanced Blood Tester because we did not go beyond MVP yet so we are almost there. 
+####  Recently, I am almost done with gaining knowledge of both Javascript and Babylon in order to create a website that introduces my solution with a simulation model that positively contributes to development of medical technology so I need to merge my knowledge of those together to do so. However, Javascript and Babylon are still not enough so I am almost done with p5js in order to be on top of my website through a medical simulation model that solves lack of technologies in the medical field. Therefore, I have enough knowledge of p5js with skills and experiences which lead me to finish and plan step 5 (Create prototype). Step 5 is basically creating a functional prototype. Our prototype for step 5 is our simulation or Advanced Blood Tester using Babylon along with my tinkering, knowledge, experiences, skills, and challenges during this project with my partner which I uploaded images above for MVP. We are in the process of testing and evaluating our prototype or Advanced Blood Tester because we did not go beyond MVP yet so we are almost there.
 
 ### Skills
 
-#### I achieved skills of Organization and Creativity
+#### I achieved skills of Leadership and Growth Mindset.
 
-* I learned the skill of organization for file management, hierarchy and relationships, whiteboarding my ideas throughout this process of planning to create a simautlation. I had notes for Javascript, p5js, and Babylon to stay orgaizne and to refer back whenever I needed it in order to combine them in certain situations. For example, I went back to my notes for Babylon since I was curious about what is the next step I have to do in order to be orgzanized with my knowledge of Babylon. I also organzied my relationship with my partner to stay connected and planned dyas to complete our MVP Plan which we did so we are actually starting out a website from scratch as we organized. Additionally, we were organized in a hierarchy to know who is better than us in Bbaylon and viewed their work to get motivation along the way with inspiration. Therefore, this skill is pretty important as it helps us to stay on top of certain responsibilities. 
+* I learned the skill of Leadership by delegating group tasks, supporting my partner, assuming responsibility for Java, CSS, and Simulation throughout this process of completing MVP along with the simulation. Me and my partner had plan sheet or deadlines for MVP, Javascript, p5js, and Babylon to know our task, supporting each other, and taking responsibility of our own job. For example, we were kinda late in deadline to complete MVP which influenced us to try our best in order to improve my leadership skills by staying connected, doing my part, and supporting Michaela in this difficult condition. This skill builds a stronger relationship with my partner to stay connected, to support each other no matter what, and to take our responsibility in order to complete our MVP Plan which we did so we are actually starting out beyond MVP with more animation. Additionally, we were here for each other whenever we needed help during this difficult condition to get motivation along the way with inspiration. Therefore, this skill is pretty important as it helped me to be leader. 
 
-* I learned the skill of creativity and learned how to think outside the box, be innovative, and create the future. For example, I created unique animated characters walking using Babylon instead of changing their shapes or color which is pretty basic so I wanted to go outside of the box and make my character completely different from the original one in order to learn characteristics of Babylon. Also, my partner and I are creating a website for the future which we have already started using our creativity of how we should plan it out in order to actually successed. I was pretty innovative in considering Javascript, Babylon, and p5js to create a medical simualtion and planning out specifc parts which we need to actually use these consepts as resources. I tried dmy best to be creative during tinkering with Babylon so I could be on top of my tinkefimng for the best of my ability. Therefore, this skill is pretty important as it gives you more than what you are limited to. 
+* I learned the skill of Growth Mindset by patience, perseverance, and the courage to ask for help when needed.
+For example, I was patient enough to ask for help from my partner when our link to the simulation didn't work and on slack from my friends along with Mr.Mueller about aplicativity project in order to be a leader on my task. Also, my partner and I successfully completed a website for the future which we have already started using our Growth MIndset of how we should stay patient, perseverant, and to have the courage in order to seek help when needed which will lead us to success. I was pretty patient and persevered in considering Javascript, Babylon, and p5js to successfully complete a medical simulation and planning out specific parts which we need to actually use these concepts as resources. I tried my best to have courage, patience, and perseverance at any cost during tinkering with Babylon and MVP so I could be on top of my tinkering for the best of my patience. Therefore, this skill is pretty important as it improves you to the best of your intention. 
 
 ### Summary
-#### As a result, I am ready to continue extending the best possible solution for the lack of technologies in medicine without relying on existing technologies and others. Therefore, I am excited to make a simulation for technologies of medicine and serve positive impacts both on my community and my future with my partner. Additionally, I'm going to extend my efforts on this FP by breaking it down into pieces and successfully complete this prroject.
-
-[Previous](entry03.md) | [Next](entry05.md)
-
-[Home](../README.md)
+#### As a result, I am pretty proud of myself and my best friend (partner, Michaela) for successfully completing the best possible solution for the lack of technologies in medicine without relying on existing technologies and others. Therefore, I am proud to bring a new existing simulation for technologies of medicine and serve positive impacts both on my community and my future with my partner. Additionally, We look forward to going beyond the MVP as we have the intention to do our best.
