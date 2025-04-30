@@ -5,7 +5,7 @@
 ## Concept: Babylon
 ##### 4/28/25
 
-### How I have been learning Babylon and How I finished my MVP along with (link to the project! with Michaela)& Evidence: code snippets, screenshots, etc
+### How I have been learning Babylon and How I finished my MVP with my partner
 
 #### During the past weeks, I successfuly completed my MVP with Michaela that insludes our website and our simulation using Babylon. I have been improving my knowledge of Babylon by learning more and more about how to create animations and 3D objects through tinkering. Specifically, I have learned how to do animated objects and 3D shape using Babylon. I went to [Babylon website](https://www.babylonjs.com/) and chose [Creating Fountain](https://playground.babylonjs.com/#TC31NV#4) which is basically creating animated object of fountain that spits out unique water around the village along with advanced version of 3D objects [Add an animated UFO to your scene](https://playground.babylonjs.com/#KBS9I5#90) which is basically expanding on 3D objects to a flying object in the sky and how animated UFO looks like in outside in order to tinker with 3D objects, shapes, animation, positions, values, functions, etc., I was confused about the purpose of certain codes and funcion so I changed them to see how my result would change in order to learn what those functions do such as  3D objects, fram, value, positions, animation, etc,. The things I've learned includes:
 
