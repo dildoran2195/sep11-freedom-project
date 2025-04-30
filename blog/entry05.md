@@ -155,7 +155,7 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 ![Screenshot 2025-04-30 10 54 10 AM](https://github.com/user-attachments/assets/052d193e-a220-4cf5-98d3-f0a2ea9e03a4)
 ![Screenshot 2025-04-30 10 53 56 AM](https://github.com/user-attachments/assets/e61b66a0-3f32-49c4-b48a-7ffba8208ff4)
 
-* This is the link to our MVP for full version:
+* [This is the link to our MVP for code and full version](https://github.com/dildoran2195/medicalproject/blob/main/index.html)
 * Below is our simulation using Babylon called Advanced Blood Tester.
 ![IMG_3404](https://github.com/user-attachments/assets/88d863c3-387e-4bd8-8ad7-13746bc40759)
 ![IMG_3407](https://github.com/user-attachments/assets/bb3a3f89-d642-4f83-93ca-52a611357685)
@@ -165,7 +165,7 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 
 ### Engineering Design Process
 
-#### Since I completed steps 1 through 3, now I am planning the most promising solution in order to solve the problem of lacking technologies in medicine that I figured out in step 1 (brainstorming) which is basically step four in this case. Currently, I am almost done with gaining knowledge of both Javascript and Babylon in order to create a website that introudces my solution with a simulation model that positively contributes to development of medical technology so I need to merge my knowledge of those together to do so. However, Javascript and Babylon are still not enough so I just have to finish off p5js in order to be on top of my website through a medical simulation model that solves lack of technologies in the medical field. Therefore, I have to sucessfully complete p5js with skills and experiences which leads me to finish and plan step 5 which is eventually creating a functional prototype adn this is my plan for Blog 5 along with new tinkering on my tool list.
+####  I have to sucessfully completed Babylon and Java that are enough for MVP and some p5js with skills and experiences which lead me to finish and plan step 5 (Create prorotype). Step 5 is basically creating a functional prototype. Our prorotype for step 5 is our simulation or Advanced Blood Tester using Babylon along with my tinkerings, knowledge, experiences, skills, and challenges during this project with my partner which I uploaded images above for MVP. We are in process of testing and evaluation our prorotype or Advanced Blood Tester because we did not go beyond MVP yet so we are almost there. 
 
 ### Skills
 
