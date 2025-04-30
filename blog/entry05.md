@@ -44,7 +44,7 @@ const fountainProfile = [
 
     particleSystem.emitRate = 1500;
 ```
-#### I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `    particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
+#### I was confused with the purpose of certain codes including `const fountainProfile`, ` particleSystem.emitter`, `particleSystem.emitRate`, `particleSystem.minSize`, `particleSystem.color1` , and `particleSystem.minLifeTime`  which had plenty of codes inside. All of these certain codes are materials of an speed of fountain, appearance, size, height, animation, position, rotation, and x, z, etc,. which I've tinkered with so far.
 
 ### After:
 ![Screenshot 2025-03-19 12 32 33 PM](https://github.com/user-attachments/assets/49efb0de-7077-47f2-bc31-53d08612586b)
@@ -97,10 +97,6 @@ const fountainProfile = [
 ![Screenshot 2025-03-24 11 27 43 AM](https://github.com/user-attachments/assets/4ab23ce6-d52b-4991-a41b-302f3bb2373a)
 
 ```
-const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 15, new BABYLON.Vector3(0, 0, 0));
-    camera.upperBetaLimit = Math.PI / 2.2;
-    camera.attachControl(canvas, true);
-    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
 
 const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.babylonjs.com/environments/ufo.png", 1, {width: 128, height: 76});
     const ufo = new BABYLON.Sprite("ufo", spriteManagerUFO);
@@ -128,11 +124,6 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 
 
 ```
-    const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 3, Math.PI / 3.5, 20, new BABYLON.Vector3(2, 1, 2));
-    camera.upperBetaLimit = Math.PI / 4.2;
-    camera.attachControl(canvas, true);
-    const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(2, 1, 2));
-
     const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.babylonjs.com/environments/ufo.png", 1, {width: 128, height: 76});
     const ufo = new BABYLON.Sprite("ufo", spriteManagerUFO);
     ufo.playAnimation(2, 16, true, 155);
@@ -164,8 +155,12 @@ const spriteManagerUFO = new BABYLON.SpriteManager("UFOManager","https://assets.
 ![Screenshot 2025-04-30 10 54 10 AM](https://github.com/user-attachments/assets/052d193e-a220-4cf5-98d3-f0a2ea9e03a4)
 ![Screenshot 2025-04-30 10 53 56 AM](https://github.com/user-attachments/assets/e61b66a0-3f32-49c4-b48a-7ffba8208ff4)
 
-* This is the link to our MVP for full version
-
+* This is the link to our MVP for full version:
+* Below is our simulation using Babylon called Advanced Blood Tester.
+![IMG_3404](https://github.com/user-attachments/assets/88d863c3-387e-4bd8-8ad7-13746bc40759)
+![IMG_3407](https://github.com/user-attachments/assets/bb3a3f89-d642-4f83-93ca-52a611357685)
+![IMG_3405](https://github.com/user-attachments/assets/dd239b70-3225-441b-934a-e534d5a6a39e)
+ 
 * We stayed in the library and connected with each other through message in order to be up to date with what we have to finish and what we can improve on which gave us success so communication and connection is a key to completion. We followed the deadline and responsibilities of each other based on our plan sheet. For example, I did the CSS, Java, and simulation while my partner did HTML, Java, and Simulation because our goal was to show the general scope of medicine by considering the future and present instead of past.
 
 ### Engineering Design Process
