@@ -18,10 +18,10 @@ For my project, I chose to independently study Babylon in order to help me make 
 
 ## Cons on Social and Global
 <li> Our product is not interactive, it is just for people to see and learn from it </li>
-<li> Our website could be more with more colors and images</li>
+<li> Our website could be more visual with more colors and images</li>
 <li> This is just general idea of what can be done for medical development but it isn't real</li>
 <li> Since, we finished our website in last minute, we could have make it better by adding more texture and more functions so it would be much better</li>
-
+<li> We could have make it more real instead of "just to view" product </li>
 
 ## Links
 
