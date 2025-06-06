@@ -36,6 +36,14 @@ Analysis: Ultimately, we had to clearly communicate to each other our progress a
 
 No Interactive Features: There are no interactive elements like animations, hover effects, transitions, or user-driven interactions such as forms or dynamic content updates.
 
+## Links
+
+[Product](https://drive.google.com/file/d/1UIKJ-Nkvs8_MwtEqwRmDLJiV7mFB_3QD/view)
+
+[Presentation](https://docs.google.com/presentation/d/1GjRuum40-J1fS3SfWq6IdnIMmfQhBaFJrWBQh-q9T4Q/edit?usp=sharing)
+
+Notes
+
 ### Engineering Design Process
 
 I've reached the end of my EDP, where I'm now on the final step of the process, and I'm communicating my results. I've already shared and will continue to share the final product with my peers for feedback which I can take advantage of for future projects. I plan to utilize this feedback in a general sense where I can apply it during my classes, to my schedule, and to my general life both in and out of school. Feedback I've received so far includes adding onto my project and building onto my goal which I will try to achieve but on a less strict schedule as I also want to pursue other projects. When I do begin to add onto my project, I want to try implementing animations into my simulation to make it more lively. 
