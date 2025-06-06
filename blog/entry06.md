@@ -1,14 +1,12 @@
 Entry 6
 ##### 5/30/25
 
-### Content
-
-### Takeaways from Finishing Remaining BMVP (Beyond Minimum Viable Product), Expo elevator pitch, and in-class presentation
+### Content: Takeaways from Finishing Remaining BMVP (Beyond Minimum Viable Product), Expo elevator pitch, and in-class presentation
 
 #### During the past weeks, I successfully completed my MVP with Michaela that includes our website and our final simulation using Babylon as well as our presenation from Finishing Remaining MVP (Beyond Minimum Viable Product), Expo elevator pitch, and in-class presentation. Therefore, I will talk about my takeaways, Skills, EDP, professionalism, as well as links to our sources of our notes and slides. 
 
 #### Even though I and Michaela successfuly finished our minimum viable product, my job was to make our wesbite interactive and more visual like modern websites but it was still lacking imgaes, missing attractive features, and more texture along with more babylon since we wanted to make our website professional. 
-###### Background
+###### No Interactive Features for Finishing Remaining BMVP (Beyond Minimum Viable Product)
 
 ``` JS
 
@@ -24,7 +22,7 @@ Analysis: In this spacific case, we were fixing our website with final touches s
 Takeaway: Finishing Remaining BMVP (Beyond Minimum Viable Product) gave us takeaway of never over prascinating at last minute because we supposed to make our final touches days before its due date. However, we were still able to make our website more visual, interactive, high quality of brain illustration for our background which is much better than before. Therefore, it is always better to never give up even at last minute by using that 15 minutes wisely to improve with feedbacks from our classmates which they comment that it wasn't any new website so they recommended us to add more features to make it a little bit unique than before.
 
 
-###### Presenting Our Product
+###### Expo elevator pitch, and in-class presentation
 
 We found many difficulties in trying to plan our presentation to both the class and in the expo. These issues stemmed from mainly miscommunication and the lacking ability to find proper connections between our assigned roles.
 
@@ -33,8 +31,6 @@ We found many difficulties in trying to plan our presentation to both the class 
 ![Screenshot 2025-05-30 10 25 33 AM](https://github.com/user-attachments/assets/42024efa-ca61-4042-aad6-fe4cb04d9d68)
 
 Analysis: Ultimately, we had to clearly communicate to each other our progress and make clear what role we were committing to. We did this through assigned slides which helped us the most in determining our connections and differences in formulating an overall product. Being able to identify our standpoints helped us to clearly connect our combined efforts throughout this project and tie that progress back to our primary goal and aspirations.
-
-No Interactive Features: There are no interactive elements like animations, hover effects, transitions, or user-driven interactions such as forms or dynamic content updates.
 
 ## Links
 
