@@ -21,6 +21,8 @@ Entry 6
 
 Analysis: In this spacific case, we were fixing our website with final touches since our website had limited Use of Images. Even though we had few images for our product, we literally had nothing visual or interactive for our background website so the visual appeal could be enhanced by more high-quality or illustrations of brain which is what I did. I set the background image using a Layer which doesn't overlap 3D model with image of brain. Therefore, our website was better with final touches and more visual and interactive background to get attention of our audience once they look at our website.
 
+Takeaway: Finishing Remaining BMVP (Beyond Minimum Viable Product) gave us takeaway of never over prascinating at last minute because we supposed to make our final touches days before its due date. However, we were still able to make our website more visual, interactive, high quality of brain illustration for our background which is much better than before. Therefore, it is always better to never give up even at last minute by using that 15 minutes wisely to improve with feedbacks from our classmates which they comment that it wasn't any new website so they recommended us to add more features to make it a little bit unique than before.
+
 
 ###### Presenting Our Product
 
