@@ -3,7 +3,7 @@ Entry 6
 
 ### Content: Takeaways from Finishing Remaining BMVP (Beyond Minimum Viable Product), Expo elevator pitch, and in-class presentation
 
-#### During the past weeks, I successfully completed my MVP with Michaela that includes our website and our final simulation using Babylon as well as our presenation from Finishing Remaining MVP (Beyond Minimum Viable Product), Expo elevator pitch, and in-class presentation. Therefore, I will talk about my takeaways, Skills, EDP, professionalism, as well as links to our sources of our notes and slides. 
+#### During the past weeks, I successfully completed my BMVP with Michaela that includes our website and our final simulation using Babylon as well as our presenation from Finishing Remaining MVP (Beyond Minimum Viable Product), Expo elevator pitch, and in-class presentation. Therefore, I will talk about my takeaways, Skills, EDP, professionalism, as well as links to our sources of our notes and slides. 
 
 #### Even though I and Michaela successfuly finished our minimum viable product, my job was to make our wesbite interactive and more visual like modern websites but it was still lacking imgaes, missing attractive features, and more texture along with more babylon since we wanted to make our website professional. 
 ###### No Interactive Features for Finishing Remaining BMVP (Beyond Minimum Viable Product)
