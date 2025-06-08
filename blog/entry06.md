@@ -24,13 +24,14 @@ Takeaway: Finishing Remaining BMVP (Beyond Minimum Viable Product) gave us takea
 
 ###### Expo elevator pitch, and in-class presentation
 
-We found many difficulties in trying to plan our presentation to both the class and in the expo. These issues stemmed from mainly miscommunication and the lacking ability to find proper connections between our assigned roles.
+Our challenge was not learning from our failure when our product and website was still lacking attarctive features so we had trouble with collaboration during both the class and in the expo to explain why our BMVP was not attarctive as others. Also, during preseantion we were not ready for random choice from Mr.Mueller in order to explain our challenges with Babylon and how it all intersects with our takeaways since it was pretty difficult to intersect Babylon with Java or anything in between since Bbaylon is completely different tool with combination of different features and textures.  
 
-![Screenshot 2025-05-30 10 25 43 AM](https://github.com/user-attachments/assets/f772aa56-c00b-47a1-968f-eb304b54a3be)
+![Screenshot 2025-06-08 6 47 40 PM](https://github.com/user-attachments/assets/7ca915a0-7abd-4263-82e9-39e029557563)
 
-![Screenshot 2025-05-30 10 25 33 AM](https://github.com/user-attachments/assets/42024efa-ca61-4042-aad6-fe4cb04d9d68)
+![Screenshot 2025-06-08 6 47 34 PM](https://github.com/user-attachments/assets/ca5c2e82-b1cf-49fd-a4e2-c76134a02123)
 
-Analysis: Ultimately, we had to clearly communicate to each other our progress and make clear what role we were committing to. We did this through assigned slides which helped us the most in determining our connections and differences in formulating an overall product. Being able to identify our standpoints helped us to clearly connect our combined efforts throughout this project and tie that progress back to our primary goal and aspirations.
+
+Takeaways: Finally, we had connection between us with communication skills but we had troible learning from our mistakes and priotizing time in order to practice our preseantion along with doing our BMVP on time in both the class and in expo. However, this taught us to never give up by doing our assigned tasks no matter what happens to make our product and website attarctive which we did. Therefore, communication and collaboration is a key to success by descising our challenges and linking them back to our takeaways duing all of oyr presenation. Supporting each other of us and never giving up at any points clearly helped us to combine our mistakes in order to com eup with solutions which successfully resulted in our goal along with making our friendship even more stronger than before through BMVP. 
 
 ## Links
 
@@ -38,13 +39,13 @@ Analysis: Ultimately, we had to clearly communicate to each other our progress a
 
 [Presentation](https://docs.google.com/presentation/d/1GjRuum40-J1fS3SfWq6IdnIMmfQhBaFJrWBQh-q9T4Q/edit?usp=sharing)
 
-Notes
+[Notes](https://docs.google.com/document/d/1Pb5fPYlukAslMq2zAOSlGyQSdoqXcjylQGjlWWHmxgk/edit?usp=sharing)
 
 ### Engineering Design Process
 
-I've reached the end of my EDP, where I'm now on the final step of the process, and I'm communicating my results. I've already shared and will continue to share the final product with my peers for feedback which I can take advantage of for future projects. I plan to utilize this feedback in a general sense where I can apply it during my classes, to my schedule, and to my general life both in and out of school. Feedback I've received so far includes adding onto my project and building onto my goal which I will try to achieve but on a less strict schedule as I also want to pursue other projects. When I do begin to add onto my project, I want to try implementing animations into my simulation to make it more lively. 
+I am so proud of myself for being on the final step of the process but I am still in process with communicating my results by thinking of skills I've learned from BMVP. Since, we finished our presentation I still look forward to share my product and wesbite with my peers on 2026 channel on Slack in order to gather feedbacks for my APCSP and my future projects. These feedbacks defintely going to gteach me a skill by telling how I can fix my mistakes which would be heloful for my senior year, general life, and college. Since I look forward to show this project to my college application and I wnat to major in medicine so there is a huge connection between my future goals and my BMVP of 2025. Therefore, adding attractive features and textures to our product and wesbite is still on motion because we want to communicate our results of BMVP of 2025 in order to make our simulation even better to show it off to college and to ou families. Communicating our results is significnat as it helps me to plan my future goals by seeing how good I am right now and how I can improve myself in he future by thinking of what prohets I look forward to complete along with how I will achieve live and animated simulation with my partner.
 
-### Skills
+### Skills: Embracing failure: rather than being discouraged by a bug or an error message, we love mistakes because they help us learn & Time management: prioritizing and scheduling tasks, working towards an MVP, etc.
 
 Referring back to the miscommunication my partner and I experienced when planning to present our project, a skill I was able to reflect on was communication. During this time in our process, it was crucial we knew where the other party was at being that we had to tie in all our progress to our initial goal from the beginning of the year to the end. To do this, we were made to recollect and learn the information each of us possessed and exchange. By working on this exchange of information, I was able to effectively communicate outside of school as well especially when relaying information to my family. With the implementation of this process I'm able to better plan events with my family and friends specifically for this upcoming summer. Another skill I was able to reflect on is gathering information. With presentation planning came presentation topics. My partner and I had to know what was and wasn't relevant in our presentation to effectively communicate our goal and the process attached to that goal to our audience. To achieve this, we, again, exchanged each other's knowledge and also revisited past projects/blogs to gather pivotal moments in our freedom project journey. By doing this, I was able to integrate this skill of gathering information into other classes, especially my chemistry class where I'm currently researching acid-base solutions alongside molecular shapes. Effective researching has helped me become knowledgeable on these topics through the related process I used from an unrelated class. I will continue to utilize this skill to conduct further research in my chemistry class to be able to eventually formulate another final MVP.  
 
@@ -55,7 +56,3 @@ I look forward to using the skills I have been able to recently reflect on in my
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
-
-
-Limited Use of Images: While you have a couple of images (BLOOD3.jpg, BLOOD2.png), the visual appeal could be enhanced by more high-quality, relevant graphics, icons, or illustrations.
-No Interactive Features: There are no interactive elements like animations, hover effects, transitions, or user-driven interactions such as forms or dynamic content updates.
